@@ -3,11 +3,16 @@
 ![Nivel](https://img.shields.io/badge/nivel-principiante-green)
 ![Tiempo](https://img.shields.io/badge/tiempo-1%20hora-blue)
 
+## Índice del curos.
+* [Objetivo](#Objetivo)
+
 ## 📖 Descripción
 
 HTML (HyperText Markup Language) es el lenguaje de marcado estándar para crear páginas web. Es la base fundamental de todo sitio web en Internet y define la estructura y el contenido de las páginas. HTML no es un lenguaje de programación, sino un lenguaje de marcado que utiliza etiquetas para describir el contenido.
 
 En este primer día aprenderás la estructura básica de un documento HTML, comprenderás cada uno de sus componentes esenciales y crearás tu primera página web funcional.
+
+<a name="Objetivo"></a>
 
 ## 🎯 Objetivos del Día
 
@@ -117,29 +122,29 @@ Explicación: Este ejemplo incluye metadatos adicionales como description (descr
 Objetivo: Crear un documento HTML básico con la estructura correcta.
 
 Instrucciones:
-
+```
 - Crea un archivo llamado mi-primera-pagina.html
 - Escribe la estructura básica HTML5 con <!DOCTYPE html>
 - Añade un <title> con tu nombre
 - En el <body>, incluye un encabezado <h1> con el texto "Mi Primera Página Web"
 - Añade un párrafo <p> con una breve descripción sobre ti
 - Pista: Recuerda incluir la etiqueta <meta charset="UTF-8"> para evitar problemas con caracteres especiales.
-
-[Solución]
+```
+[Solución](mi-primera-pagina.html)
 
 #### Ejercicio 2: Página de Presentación ⭐⭐
 Objetivo: Crear una página HTML con metadatos completos.
 
 Requisitos:
-
+```
 - Estructura HTML5 válida
 - Atributo lang configurado en español
 - Meta etiquetas: charset, viewport, description y author
 - Título descriptivo
 - Al menos 2 encabezados (<h1> y <h2>)
 - Al menos 3 párrafos con contenido
-
-[Solución]
+```
+[Solución](ejercicio2.html)
 
 ### 🎓 Resumen
 - HTML es el lenguaje de marcado estándar para crear páginas web
