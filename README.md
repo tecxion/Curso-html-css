@@ -101,13 +101,7 @@ aprende-html-30-dias/
 ├── dia-01/
 │ ├── README.md
 │ ├── ejemplos/
-│ │ └── ejemplo.html
-│ ├── ejercicios/
-│ │ ├── ejercicio-1.md
-│ │ └── ejercicio-2.md
 │ └── soluciones/
-│ ├── solucion-1.html
-│ └── solucion-2.html
 ├── dia-02/
 │ └── ...
 └── proyecto-final/
