@@ -377,18 +377,18 @@ Instrucciones:
 - Implementa navegación interna con anclas
 
 ## 🔍 Buenas Prácticas
-✅ Usa texto descriptivo en los enlaces, no "haz clic aquí"
-✅ Añade rel="noopener noreferrer" cuando uses target="_blank"
-✅ Usa URLs relativas para enlaces internos del sitio
-✅ Incluye title para proporcionar contexto adicional
-✅ Abre enlaces externos en nueva pestaña con target="_blank"
-✅ Usa el atributo rel apropiado (nofollow, sponsored, ugc)
-✅ Verifica que los enlaces funcionen antes de publicar
+✅ Usa texto descriptivo en los enlaces, no "haz clic aquí"<br>
+✅ Añade rel="noopener noreferrer" cuando uses target="_blank"<br>
+✅ Usa URLs relativas para enlaces internos del sitio<br>
+✅ Incluye title para proporcionar contexto adicional<br>
+✅ Abre enlaces externos en nueva pestaña con target="_blank"<br>
+✅ Usa el atributo rel apropiado (nofollow, sponsored, ugc)<br>
+✅ Verifica que los enlaces funcionen antes de publicar<br>
 
-❌ No uses "haz clic aquí" o "más información" como texto de enlace
-❌ No abras todos los enlaces en nueva pestaña (confunde al usuario)
-❌ No uses JavaScript para enlaces simples (href="#" está bien para anclas)
-❌ No omitas el protocolo en URLs absolutas
+❌ No uses "haz clic aquí" o "más información" como texto de enlace<br>
+❌ No abras todos los enlaces en nueva pestaña (confunde al usuario)<br>
+❌ No uses JavaScript para enlaces simples (href="#" está bien para anclas)<br>
+❌ No omitas el protocolo en URLs absolutas<br>
 
 ## 🎓 Resumen
 - La etiqueta <a> con el atributo href crea hipervínculos
