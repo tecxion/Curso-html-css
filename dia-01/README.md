@@ -1,7 +1,7 @@
 <h4 align="center">
 <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-02">Día 2</a>
 </h4>
-<h1>
+<h1 align="center">
 <img src="https://github.com/tecxion/Curso-html-css/blob/main/recursos/imagenes/CURSOhtml1.png">
 </h1>
 
