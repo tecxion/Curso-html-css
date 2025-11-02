@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 ![Progress](https://img.shields.io/badge/days-30-blue?style=for-the-badge)
 
-Un curso completo y progresivo para aprender HTML desde cero hasta nivel avanzado en 30 días. Cada día incluye teoría, ejemplos prácticos y ejercicios con soluciones[web:11][web:16].
+Un curso completo y progresivo para aprender HTML desde cero hasta nivel avanzado en 30 días. Cada día incluye teoría, ejemplos prácticos y ejercicios con soluciones.
 
 ## 🎯 Objetivos del Curso
 
@@ -16,7 +16,7 @@ Un curso completo y progresivo para aprender HTML desde cero hasta nivel avanzad
 ## 📋 Requisitos Previos
 
 - Un navegador web moderno (Chrome, Firefox, Edge)
-- Un editor de código (VS Code recomendado)
+- Un editor de código (VS Code recomendado, aunque yo usare Notepad++ por el Grado Superior)
 - Conocimientos básicos de computación
 - Ganas de aprender 🚀
 
@@ -90,7 +90,7 @@ git push origin mis-ejercicios
 
 
 ## 📂 Estructura del Proyecto
-
+```
 aprende-html-30-dias/
 ├── README.md
 ├── LICENSE
@@ -112,7 +112,7 @@ aprende-html-30-dias/
 │ └── ...
 └── proyecto-final/
 └── README.md
-
+```
 
 ## 🤝 Cómo Contribuir
 
@@ -133,13 +133,12 @@ Las contribuciones son bienvenidas. Si encuentras errores o quieres mejorar el c
 
 ## 📜 Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles[web:11][web:16].
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 ## ✨ Autor
 
-**[Tu Nombre]**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- Twitter: [@tu-twitter](https://twitter.com/tu-twitter)
+**TecXion**
+- GitHub: [@tecxion](https://github.com/tecxion)
 
 ## 🙏 Agradecimientos
 
