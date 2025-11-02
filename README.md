@@ -2,6 +2,10 @@
 <img src="https://github.com/tecxion/Curso-html-css/blob/main/recursos/imagenes/CURSOhtml.png">
 </h1>
 
+<h4 align="center">
+<a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-01">Día 1</a>
+</h4>
+
 
 # 📚 Aprende HTML en 30 Días
 
@@ -27,43 +31,43 @@ Un curso completo y progresivo para aprender HTML desde cero hasta nivel avanzad
 
 ## 🗓️ Contenido del Curso
 
-### Semana 1: Fundamentos de HTML
+### Fundamentos de HTML
 - [x] **Día 1**: [Introducción a HTML](./dia-01) - Estructura básica de un documento HTML
-- [ ] **Día 2**: [Tu Primera Página Web](./dia-02) - Crear un "Hola Mundo"
-- [ ] **Día 3**: [Etiquetas de Texto](./dia-03) - Encabezados, párrafos y énfasis
-- [ ] **Día 4**: [Enlaces e Hipervínculos](./dia-04) - Navegación entre páginas
-- [ ] **Día 5**: [Listas](./dia-05) - Listas ordenadas y desordenadas
-- [ ] **Día 6**: [Imágenes](./dia-06) - Insertar y optimizar imágenes
-- [ ] **Día 7**: [Comentarios y Buenas Prácticas](./dia-07) - Código limpio y mantenible
+- [ ] **Día 2**: [Etiquetas de Texto](./dia-02) - Encabezados, párrafos y énfasis
+- [ ] **Día 3**: [Enlaces e Hipervínculos](./dia-03) - Navegación entre páginas
+- [ ] **Día 4**: [Listas](./dia-04) - Listas ordenadas y desordenadas
+- [ ] **Día 5**: [Imágenes](./dia-05) - Insertar y optimizar imágenes
+- [ ] **Día 6**: [Comentarios y Buenas Prácticas](./dia-06) - Código limpio y mantenible
 
-### Semana 2: Estructura y Contenido
-- [ ] **Día 8**: [Tablas Básicas](./dia-08) - Crear tablas simples
-- [ ] **Día 9**: [Tablas Avanzadas](./dia-09) - colspan, rowspan y estructura compleja
-- [ ] **Día 10**: [Formularios Parte 1](./dia-10) - Elementos básicos de formularios
-- [ ] **Día 11**: [Formularios Parte 2](./dia-11) - Textarea, select y button
-- [ ] **Día 12**: [Formularios Parte 3](./dia-12) - Validación HTML5
-- [ ] **Día 13**: [Divs y Spans](./dia-13) - Contenedores genéricos
-- [ ] **Día 14**: [Estructura del DOM](./dia-14) - Relaciones padre-hijo
+### Estructura y Contenido
+- [ ] **Día 7**: [Tablas Básicas](./dia-07) - Crear tablas simples
+- [ ] **Día 8**: [Tablas Avanzadas](./dia-08) - colspan, rowspan y estructura compleja
+- [ ] **Día 9**: [Formularios Parte 1](./dia-9) - Elementos básicos de formularios
+- [ ] **Día 10**: [Formularios Parte 2](./dia-10) - Textarea, select y button
+- [ ] **Día 11**: [Formularios Parte 3](./dia-11) - Validación HTML5
+- [ ] **Día 12**: [Divs y Spans](./dia-12) - Contenedores genéricos
+- [ ] **Día 13**: [Estructura del DOM](./dia-13) - Relaciones padre-hijo
 
-### Semana 3: HTML Semántico y Multimedia
-- [ ] **Día 15**: [HTML Semántico Parte 1](./dia-15) - header, nav, main, footer
-- [ ] **Día 16**: [HTML Semántico Parte 2](./dia-16) - article, section, aside
-- [ ] **Día 17**: [Elementos Multimedia](./dia-17) - Audio y video
-- [ ] **Día 18**: [Elementos Embebidos](./dia-18) - iframe y embed
-- [ ] **Día 19**: [Meta Etiquetas y SEO](./dia-19) - Optimización para buscadores
-- [ ] **Día 20**: [Caracteres Especiales](./dia-20) - Entidades HTML
-- [ ] **Día 21**: [Accesibilidad Web](./dia-21) - ARIA y diseño inclusivo
+### HTML Semántico y Multimedia
+- [ ] **Día 14**: [HTML Semántico Parte 1](./dia-14) - header, nav, main, footer
+- [ ] **Día 15**: [HTML Semántico Parte 2](./dia-15) - article, section, aside
+- [ ] **Día 16**: [Elementos Multimedia](./dia-16) - Audio y video
+- [ ] **Día 17**: [Elementos Embebidos](./dia-17) - iframe y embed
+- [ ] **Día 18**: [Meta Etiquetas y SEO](./dia-18) - Optimización para buscadores
+- [ ] **Día 19**: [Caracteres Especiales](./dia-19) - Entidades HTML
+- [ ] **Día 20**: [Accesibilidad Web](./dia-20) - ARIA y diseño inclusivo
 
-### Semana 4: HTML Avanzado
-- [ ] **Día 22**: [Formularios Avanzados](./dia-22) - datalist, output y campos especiales
-- [ ] **Día 23**: [Canvas y SVG](./dia-23) - Gráficos en HTML
-- [ ] **Día 24**: [Atributos Globales](./dia-24) - class, id, data-*
-- [ ] **Día 25**: [Rutas y Enlaces](./dia-25) - Rutas absolutas y relativas
-- [ ] **Día 26**: [Validación HTML](./dia-26) - W3C Validator
-- [ ] **Día 27**: [Performance](./dia-27) - Optimización y mejores prácticas
-- [ ] **Día 28**: [Estructura de Proyecto](./dia-28) - Organización profesional
-- [ ] **Día 29**: [Proyecto Final Parte 1](./dia-29) - Planificación
-- [ ] **Día 30**: [Proyecto Final Parte 2](./dia-30) - Implementación y despliegue
+###  HTML Avanzado
+- [ ] **Día 21**: [Formularios Avanzados](./dia-21) - datalist, output y campos especiales
+- [ ] **Día 22**: [Canvas y SVG](./dia-22) - Gráficos en HTML
+- [ ] **Día 23**: [Atributos Globales](./dia-23) - class, id, data-*
+- [ ] **Día 24**: [Rutas y Enlaces](./dia-24) - Rutas absolutas y relativas
+- [ ] **Día 25**: [Validación HTML](./dia-25) - W3C Validator
+- [ ] **Día 26**: [Performance](./dia-26) - Optimización y mejores prácticas
+- [ ] **Día 27**: [Estructura de Proyecto](./dia-27) - Organización profesional
+- [ ] **Día 28**: [Proyecto Final Parte 1](./dia-28) - Planificación
+- [ ] **Día 29**: [Proyecto Final Parte 2](./dia-29) - Implementación y despliegue
+- [ ] **Día 30**: [Proyecto Final Parte 3](./dia-30) - Mi primer gran proyecto.
 
 ## 🚀 Cómo Usar Este Repositorio
 

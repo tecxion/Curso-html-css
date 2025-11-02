@@ -1,5 +1,5 @@
 <h4 align="center">
-<a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-03">Día 3</a>
+<a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-01">Día 1</a> || <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-03">Día 3</a>
 </h4>
 <h1 align="center">
 <img src="https://github.com/tecxion/Curso-html-css/blob/main/recursos/imagenes/CURSOhtml2.png">
@@ -9,6 +9,12 @@
 
 ![Nivel](https://img.shields.io/badge/nivel-principiante-green)
 ![Tiempo](https://img.shields.io/badge/tiempo-1%20hora-blue)
+
+### Índice Día 2
+
+* [Concepto](#concepto)
+* [Ejemplos](#ejemplo)
+* [Ejercicios](#ejercicio)
 
 ## 📖 Descripción
 
@@ -24,6 +30,8 @@ Al finalizar este día serás capaz de:
 - Aplicar énfasis y formato a texto con etiquetas semánticas
 - Diferenciar entre etiquetas semánticas (`<strong>`, `<em>`) y visuales (`<b>`, `<i>`)
 - Utilizar saltos de línea y líneas horizontales apropiadamente
+
+<a name="concepto"></a>
 
 ## 📚 Conceptos Clave
 
@@ -103,7 +111,9 @@ Recomendación: Usa etiquetas semánticas (`<strong>, <em>`) cuando quieras dar 
 <hr>
 ```
 
-El elemento <br> inserta un salto de línea simple, mientras que <hr> crea una línea horizontal temática que separa contenido.
+El elemento `<br>` inserta un salto de línea simple, mientras que <hr> crea una línea horizontal temática que separa contenido.
+
+<a name="ejemplo"></a>
 
 ## 💻 Ejemplos Prácticos
 
@@ -143,8 +153,9 @@ El elemento <br> inserta un salto de línea simple, mientras que <hr> crea una l
 ```
 Explicación: Este ejemplo muestra una jerarquía correcta de encabezados (h1 > h2 > h3) y el uso apropiado de `<strong>` y `<em>` para dar significado al texto.
 
-## ✏️ Ejercicios del Día
+<a name="ejercicio"></a>
 
+## ✏️ Ejercicios del Día
 
 ### Ejercicio 1: Página de Receta ⭐
 Objetivo: Crear una página de receta usando encabezados y párrafos correctamente.
@@ -158,18 +169,22 @@ Instrucciones:
 
 Pista: Una buena jerarquía de encabezados ayuda a los usuarios a escanear rápidamente el contenido.
 
+[Solución](receta.html)
+
 ### Ejercicio 2: Blog Post con Formato ⭐⭐
 Objetivo: Crear una entrada de blog utilizando diversos elementos de formato de texto.
 
 Requisitos:
 
-- Título principal con <h1>
+- Título principal con `<h1>`
 - Al menos 3 niveles de encabezados (h1, h2, h3)
 - Mínimo 5 párrafos
-- Usar <strong> y <em> apropiadamente
-- Incluir <mark> para resaltar información importante
-- Usar <small> para una nota al pie
-- Separar secciones con <hr>
+- Usar `<strong>` y `<em>` apropiadamente
+- Incluir `<mark>` para resaltar información importante
+- Usar `<small>` para una nota al pie
+- Separar secciones con `<hr>`
+
+[Solución](blog.html)
 
 ### Ejercicio 3: Documento Académico ⭐⭐⭐
 Objetivo: Crear un documento académico completo con formato profesional.
@@ -177,11 +192,13 @@ Objetivo: Crear un documento académico completo con formato profesional.
 Instrucciones:
 - Crea un documento sobre un tema científico o matemático
 - Usa jerarquía de encabezados completa (h1-h4)
-- Incluye fórmulas con <sub> y <sup>
-- Muestra correcciones con <del> e <ins>
-- Diferencia claramente entre <strong>/<em> y <b>/<i>
+- Incluye fórmulas con `<sub>` y `<sup>`
+- Muestra correcciones con `<del>` e `<ins>`
+- Diferencia claramente entre `<strong>/<em>` y `<b>/<i>`
 - Añade citas textuales apropiadas
-- Usa saltos de línea <br> solo donde sea semánticamente correcto
+- Usa saltos de línea `<br>` solo donde sea semánticamente correcto
+
+[Solución](academico.html)
 
 ### 🎓 Resumen
 - HTML tiene 6 niveles de encabezados (`<h1>` a `<h6>`) que crean jerarquía
@@ -190,3 +207,8 @@ Instrucciones:
 - `<b>` e `<i>` son etiquetas visuales sin significado semántico adicional
 - Elementos como `<mark>, <small>, <del>, <ins>, <sub> y <sup>` añaden formato específico
 - Una estructura semántica correcta mejora la accesibilidad y el SEO
+
+
+<h4 align="center">
+<a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-03">Día 3</a>
+</h4>
