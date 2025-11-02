@@ -159,4 +159,6 @@ Requisitos:
 - Los metadatos como charset, viewport y title son esenciales para un documento HTML válido
 
 
-<h4 align="center">[INICIO](../README.md) || [DIA 2](./dia-02)</h4>
+<h4 align="center">
+<a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-02">Día 2</a>
+</h4>
