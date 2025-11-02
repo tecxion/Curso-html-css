@@ -157,3 +157,6 @@ Requisitos:
 - La estructura básica incluye: <html>, <head>, <title> y <body>
 - El <head> contiene metadatos no visibles, mientras que <body> contiene el contenido visible
 - Los metadatos como charset, viewport y title son esenciales para un documento HTML válido
+
+
+<h4 align="center">[INICIO](../README.md) || [DIA 2](./dia-02)</h4>
