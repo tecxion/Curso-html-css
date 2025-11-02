@@ -5,6 +5,8 @@
 
 ## Índice del curos.
 * [Objetivo](#Objetivo)
+* [Que es html](#qué-es-html)
+* [Ejemplo](#Ejemplo)
 
 ## 📖 Descripción
 
@@ -24,6 +26,7 @@ Al finalizar este día serás capaz de:
 
 ## 📚 Conceptos Clave
 
+<a name="Que-es-html"></a>
 ### ¿Qué es HTML?
 
 HTML son las siglas de **HyperText Markup Language** (Lenguaje de Marcado de Hipertexto). Es el código que se utiliza para estructurar y desplegar contenido en la web. El contenido puede ser estructurado en párrafos, listas, imágenes, tablas de datos, entre otros.
@@ -74,6 +77,8 @@ El elemento <head> contiene metadatos sobre el documento que no se muestran dire
 ```
 
 El elemento <body> contiene todo el contenido visible de la página web: texto, imágenes, enlaces, videos, etc
+
+<a name="Ejemplo"></a>
 
 ### 💻 Ejemplos Prácticos
 
