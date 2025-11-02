@@ -1,3 +1,8 @@
+<h1 align="center">
+<img src="https://github.com/tecxion/Curso-html-css/blob/main/recursos/imagenes/CURSOhtml.png">
+</h1>
+
+
 # 📚 Aprende HTML en 30 Días
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)

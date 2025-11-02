@@ -1,3 +1,10 @@
+<h4 align="center">
+<a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-02">Día 2</a>
+</h4>
+<h1>
+<img src="https://github.com/tecxion/Curso-html-css/blob/main/recursos/imagenes/CURSOhtml1.png">
+</h1>
+
 # Día 1: Introducción a HTML
 
 ![Nivel](https://img.shields.io/badge/nivel-principiante-green)
