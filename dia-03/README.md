@@ -338,7 +338,7 @@ Define la relación entre el documento actual y el vinculado
 
 ## ✏️ Ejercicios del Día
 
-### Ejercicio 1: Página de Navegación ⭐
+### Ejercicio 1: Página de Navegación ⭐. [Solución](ejercicio1.html)
 
 Objetivo: Crear una página con menú de navegación usando enlaces relativos.
 
@@ -350,7 +350,8 @@ Instrucciones:
 - Incluye el atributo title en todos los enlaces
 - Pista: Los enlaces pueden apuntar a archivos que aún no existen; lo importante es practicar la sintaxis correcta.
 
-### Ejercicio 2: Página de Artículo con Índice ⭐⭐
+### Ejercicio 2: Página de Artículo con Índice ⭐⭐ [Solución](ejercicio2.html)
+
 Objetivo: Crear un artículo largo con índice navegable y enlaces internos.
 
 Requisitos:
@@ -361,7 +362,8 @@ Requisitos:
 - Al menos 2 enlaces externos relevantes al contenido
 - Enlaces de correo en la sección de contacto
 
-### Ejecicio 3: Página de Portfolio ⭐⭐⭐
+### Ejecicio 3: Página de Portfolio ⭐⭐⭐ [Solución](ejercicio3.html)
+
 Objetivo: Crear una página completa de portfolio personal con diversos tipos de enlaces.
 
 Instrucciones:
