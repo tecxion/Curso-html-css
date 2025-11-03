@@ -108,7 +108,7 @@ Crea un menú de navegación usando una lista desordenada, donde cada elemento e
 [Ver solución](ejercicio3.html)
 
 🔍 Buenas Prácticas
-✅ Usa `<ul>` para listas donde el orden no importa, y <ol> cuando el orden sí es importante<br>
+✅ Usa `<ul>` para listas donde el orden no importa, y `<ol>` cuando el orden sí es importante<br>
 ✅ Siempre encierra cada ítem en `<li>`<br>
 ✅ Integra las listas junto a títulos, párrafos y enlaces para mejorar la estructura<br>
 <br>
