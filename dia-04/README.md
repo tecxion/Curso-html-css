@@ -93,19 +93,15 @@ Este ejemplo integra encabezados, texto enfatizado y código visto en días ante
 ## ✏️ Ejercicios del Día
 
 #### Ejercicio 1: Lista de ingredientes ⭐
-Crea una lista desordenada con los ingredientes de tu receta favorita, usando al menos 5 elementos y resaltando uno con `<strong>`.
+Crea una lista desordenada con los ingredientes de tu receta favorita, usando al menos 5 elementos y resaltando uno con `<strong>` y luego una lista ordenada con los pasos a seguir.
 
 [Ver solución](ejercicio1.html)
 
 #### Ejercicio 2: Pasos para realizar una tarea ⭐⭐
-Crea una lista ordenada con al menos 5 pasos que sigues cada vez que inicias un nuevo proyecto, usando títulos de sección con `<h2>` y explicando cada paso en una línea.
 
-[Ver solución](ejercicio2.html)
-
-#### Ejercicio 3: Navegación con enlaces y listas ⭐⭐⭐
 Crea un menú de navegación usando una lista desordenada, donde cada elemento es un enlace (pueden ser relativos, como index.html). Añade al menos 4 secciones (Inicio, Proyectos, Blog, Contacto) y utiliza atributos como title y target cuando corresponda.
 
-[Ver solución](ejercicio3.html)
+[Ver solución](ejercicio2.html)
 
 🔍 Buenas Prácticas<br>
 ✅ Usa `<ul>` para listas donde el orden no importa, y `<ol>` cuando el orden sí es importante<br>
