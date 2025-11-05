@@ -14,6 +14,15 @@
 
 Las listas en HTML permiten agrupar y organizar información de forma estructurada y clara[web:51][web:67]. Se usan para mostrar colecciones de elementos relacionados, como pasos de instrucciones, menús de navegación o listados de características. HTML ofrece dos tipos principales: listas desordenadas (`<ul>`) y listas ordenadas (`<ol>`), ambas compuestas por elementos de lista `<li>`.
 
+## INDICE
+
+* [Objetivo](#Objetivo)
+* [Concepto](#concepto)
+* [Ejemplos](#ejemplo)
+* [Ejercicios](#ejercicio)
+
+<a name=objetivo></a>
+
 ## 🎯 Objetivos del Día
 
 Al finalizar este día serás capaz de:
@@ -21,6 +30,9 @@ Al finalizar este día serás capaz de:
 - Crear listas ordenadas (números) con `<ol>`
 - Utilizar la etiqueta `<li>` para cada elemento
 - Integrar listas en tus páginas junto a encabezados, párrafos y enlaces
+
+
+<a name=concepto></a>
 
 ## 📚 Conceptos Clave
 
@@ -47,6 +59,8 @@ Usa listas ordenadas cuando el orden de los ítems sí importa, como instruccion
 ### Elementos de lista (`<li>`)
 
 Cada elemento de la lista se encierra en la etiqueta `<li>`. Puedes usar cualquier otro elemento dentro de ella, como texto, enlaces, o incluso otras listas.
+
+<a name="ejemplo"></a>
 
 ## 💻 Ejemplos Prácticos
 
@@ -90,6 +104,8 @@ Este ejemplo integra encabezados, texto enfatizado y código visto en días ante
 </ul>
 ``` 
 
+<a name="ejercicio"></a>
+
 ## ✏️ Ejercicios del Día
 
 #### Ejercicio 1: Lista de ingredientes ⭐
@@ -116,3 +132,7 @@ Usa listas desordenadas para elementos sin secuencia.<br>
 Usa listas ordenadas para indicar un paso a paso o prioridad.<br>
 Los elementos de lista se crean con `<li>`.<br>
 Puedes incluir texto, enlaces, encabezados y énfasis dentro de las listas.<br>
+
+
+<h4 align="center">
+<a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-03">Día 3</a> || <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-05">Día 5</a>
