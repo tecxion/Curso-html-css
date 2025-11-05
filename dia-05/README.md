@@ -125,11 +125,17 @@ Ejemplo básico con optimización:
 ### Ejercicio 1: Inserta una imagen básica ⭐
 Crea un archivo HTML con una imagen usando `<img>`. Usa una imagen de tu equipo o una URL pública. Añade un texto alt descriptivo.
 
+[Solución](ejercicio1.html)
+
 ### Ejercicio 2: Imagen con atributos de tamaño y carga diferida ⭐⭐
 Crea un HTML que incluya una imagen con width, height y loading="lazy". Observa cómo mejora la carga al tener varias imágenes (puedes duplicar la imagen).
 
+[Solución](ejercicio2.html)
+
 ### Ejercicio 3: Diferencia entre imagen informativa y decorativa ⭐⭐⭐
 Crea dos imágenes: una con alt descriptivo para contenido y otra con alt="" para imagen decorativa. Explica por qué es importante esta diferenciación.
+
+[Solución](ejercicio3.html)
 
 ## 🔍 Buenas Prácticas
 - El atributo alt es obligatorio para accesibilidad y SEO.
