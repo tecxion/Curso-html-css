@@ -120,26 +120,27 @@ Ejemplo básico con optimización:
 <a name="ejercicio"></a>
 
 ## ✏️ Ejercicios del Día
-Ejercicio 1: Inserta una imagen básica ⭐
-Crea un archivo HTML con una imagen usando <img>. Usa una imagen de tu equipo o una URL pública. Añade un texto alt descriptivo.
 
-Ejercicio 2: Imagen con atributos de tamaño y carga diferida ⭐⭐
+
+### Ejercicio 1: Inserta una imagen básica ⭐
+Crea un archivo HTML con una imagen usando `<img>`. Usa una imagen de tu equipo o una URL pública. Añade un texto alt descriptivo.
+
+### Ejercicio 2: Imagen con atributos de tamaño y carga diferida ⭐⭐
 Crea un HTML que incluya una imagen con width, height y loading="lazy". Observa cómo mejora la carga al tener varias imágenes (puedes duplicar la imagen).
 
-Ejercicio 3: Diferencia entre imagen informativa y decorativa ⭐⭐⭐
+### Ejercicio 3: Diferencia entre imagen informativa y decorativa ⭐⭐⭐
 Crea dos imágenes: una con alt descriptivo para contenido y otra con alt="" para imagen decorativa. Explica por qué es importante esta diferenciación.
 
-🔍 Buenas Prácticas
-El atributo alt es obligatorio para accesibilidad y SEO.
+## 🔍 Buenas Prácticas
+- El atributo alt es obligatorio para accesibilidad y SEO.
+- Describe la imagen concisamente en alt.
+- Usa rutas relativas o absolutas válidas en src.
+- Controla dimensiones para evitar cambios en la disposición durante la carga.
+- Para imágenes no informativas, pon alt="" para ignorarlas en lectores de pantalla.
+- Optimiza tamaño y formato para una carga rápida.
+- Usa loading="lazy" para diferir carga de imágenes fuera de pantalla.
 
-Describe la imagen concisamente en alt.
 
-Usa rutas relativas o absolutas válidas en src.
-
-Controla dimensiones para evitar cambios en la disposición durante la carga.
-
-Para imágenes no informativas, pon alt="" para ignorarlas en lectores de pantalla.
-
-Optimiza tamaño y formato para una carga rápida.
-
-Usa loading="lazy" para deferir carga de imágenes fuera de pantalla.
+<h4 align="center">
+<a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-04">Día 4</a> || <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-06">Día 6</a>
+</h4>
