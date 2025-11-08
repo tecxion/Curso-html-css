@@ -154,7 +154,7 @@ Bienvenido!    Aprende HTML en 30 días.
 ## Ejercicios del Día
 
 ## Ejercicio 1: Ordena y comenta ⭐
-Copia el siguiente código, endéntalo correctamente, ciérralo donde falte y agrega al menos dos comentarios útiles:
+Copia el siguiente código, identifícalo correctamente, ciérralo donde falte y agrega al menos dos comentarios útiles:
 ```html
 <html>
 <ul>
@@ -166,6 +166,8 @@ Copia el siguiente código, endéntalo correctamente, ciérralo donde falte y ag
 </html>
 ```
 
+[Solución](ejercicio1.html)
+
 ## Ejercicio 2: Proyecto pequeño con comentarios ⭐⭐
 Prepara un archivo HTML que tenga:
 - Un título con <title>
@@ -173,12 +175,16 @@ Prepara un archivo HTML que tenga:
 - Al menos un comentario identificando cada parte
 - Una línea de contenido con tu nombre
 
+[Solución](ejercicio2.html)
+
 ### Ejercicio 3: Checklist de buenas prácticas ⭐⭐⭐
 Haz una revisión de un archivo HTML antiguo que hayas hecho o toma uno de internet. Marca y corrige:
 - Problemas de indentación
 - Etiquetas sin cerrar
 - Falta de comentarios útiles
 - Anota antes/después en comentarios para practicar la autorreflexión.
+
+
 
 ## Buenas Prácticas Resumidas
 - Mantén tu código ordenado, endentado y documentado
