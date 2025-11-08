@@ -165,4 +165,4 @@ Toma cualquier página creada en días anteriores e incluye una tabla significat
 
 ## Resumen
 
-Las tablas sirven para organizar y mostrar información tabular. Aprendiste a usar las etiquetas <table>, <tr>, <td> y <th>, a estructurar datos y a incorporar tablas prácticas en tus páginas.
+Las tablas sirven para organizar y mostrar información tabular. Aprendiste a usar las etiquetas `<table>`, `<tr>`, `<td>` y `<th>`, a estructurar datos y a incorporar tablas prácticas en tus páginas.
