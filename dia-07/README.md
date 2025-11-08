@@ -104,6 +104,25 @@ Representan los datos normales de la tabla, dentro de una fila.
 </table>
 ```
 
+- Resultado
+<table border="1">
+  <tr>
+    <th>Hora</th>
+    <th>Lunes</th>
+    <th>Martes</th>
+  </tr>
+  <tr>
+    <td>09:00</td>
+    <td>Matemáticas</td>
+    <td>Lengua</td>
+  </tr>
+  <tr>
+    <td>10:00</td>
+    <td>Inglés</td>
+    <td>Ciencias</td>
+  </tr>
+</table>
+
 ### Ejemplo 2: Tabla de enlaces útiles
 ```html
 <table border="1">
@@ -121,6 +140,22 @@ Representan los datos normales de la tabla, dentro de una fila.
   </tr>
 </table>
 ```
+
+- Resultado:
+<table border="1">
+  <tr>
+    <th>Recurso</th>
+    <th>Enlace</th>
+  </tr>
+  <tr>
+    <td>MDN Web Docs</td>
+    <td><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">Visitar</a></td>
+  </tr>
+  <tr>
+    <td>W3Schools</td>
+    <td><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">Visitar</a></td>
+  </tr>
+</table>
 
 ### Ejemplo 3: Tabla de datos personales
 
@@ -144,7 +179,7 @@ Representan los datos normales de la tabla, dentro de una fila.
 </table>
 ```
 
-Resultado:
+- Resultado:
 <table border="1">
   <tr>
     <th>Nombre</th>
