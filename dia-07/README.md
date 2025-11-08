@@ -144,6 +144,26 @@ Representan los datos normales de la tabla, dentro de una fila.
 </table>
 ```
 
+Resultado:
+<table border="1">
+  <tr>
+    <th>Nombre</th>
+    <th>Email</th>
+    <th>País</th>
+  </tr>
+  <tr>
+    <td>Ana</td>
+    <td>ana@correo.com</td>
+    <td>España</td>
+  </tr>
+  <tr>
+    <td>Luis</td>
+    <td>luis@correo.com</td>
+    <td>México</td>
+  </tr>
+</table>
+
+
 ## Ejercicios del Día
 
 ### Ejercicio 1: Mi primera tabla ⭐
