@@ -204,8 +204,12 @@ Representan los datos normales de la tabla, dentro de una fila.
 ### Ejercicio 1: Mi primera tabla ⭐
 Crea una tabla con dos columnas: "Asignatura" y "Nota". Añade al menos tres filas con nombres de asignaturas y tus notas.
 
+[Solución](ejercicio1.html)
+
 ### Ejercicio 2: Tabla de contactos con enlaces ⭐⭐
 Crea una tabla con columnas para "Nombre", "Email" y "Enlace a perfil". Pon al menos dos contactos, usando un enlace ficticio para cada perfil.
+
+[Solución](ejercicio2.html)
 
 ### Ejercicio 3: Integra una tabla en tu página ⭐⭐⭐
 Toma cualquier página creada en días anteriores e incluye una tabla significativa para tu contenido (por ejemplo, un horario, una lista de recursos, etc.).
@@ -221,3 +225,6 @@ Toma cualquier página creada en días anteriores e incluye una tabla significat
 ## Resumen
 
 Las tablas sirven para organizar y mostrar información tabular. Aprendiste a usar las etiquetas `<table>`, `<tr>`, `<td>` y `<th>`, a estructurar datos y a incorporar tablas prácticas en tus páginas.
+
+<h4 align="center">
+<a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-06">Día 6</a> || <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-08">Día 8</a>
