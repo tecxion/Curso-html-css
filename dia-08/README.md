@@ -20,7 +20,7 @@
   - [📚 Conceptos Clave](#-conceptos-clave)
     - [Combinación de celdas con colspan y rowspan](#combinación-de-celdas-con-colspan-y-rowspan)
     - [Atributo colspan](#atributo-colspan)
-  - [Atributo rowspan](#atributo-rowspan)
+    - [Atributo rowspan](#atributo-rowspan)
     - [Combinando colspan y rowspan](#combinando-colspan-y-rowspan)
   - [Estructura semántica de tablas](#estructura-semántica-de-tablas)
     - [`<thead>` - Encabezado de tabla](#thead---encabezado-de-tabla)
@@ -69,7 +69,7 @@ El atributo `colspan` (column span) extiende una celda horizontalmente para abar
 
 - En este ejemplo, la celda de encabezado abarca 2 columnas completas.
 
-## Atributo rowspan
+### Atributo rowspan
 
 - El atributo rowspan (row span) extiende una celda verticalmente para abarcar varias filas. También acepta un valor numérico.
 

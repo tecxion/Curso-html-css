@@ -1,0 +1,61 @@
+<!--Crea una tabla compleja que combine colspan, rowspan, estructura semántica (`<thead>, <tbody>, <tfoot>`) y 
+    atributos de accesibilidad (scope, caption). Ejemplo: tabla de resultados deportivos con equipos, partidos 
+    jugados, ganados, perdidos y puntos.-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Día 8</title>
+</head>
+
+<body>
+    <h1>Ejercicio 3 - Día 8</h1>
+    <table border="1" aria-describedby="tabla-resultados">
+        <caption id="tabla-resultados">Tabla de Resultados Deportivos</caption>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">Equipo</th>
+                <th scope="col" colspan="3">Partidos</th>
+                <th scope="col" rowspan="2">Puntos</th>
+            </tr>
+            <tr>
+                <th scope="col">Jugados</th>
+                <th scope="col">Ganados</th>
+                <th scope="col">Perdidos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Equipo A</td>
+                <td>10</td>
+                <td>7</td>
+                <td>3</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td scope="row">Equipo B</td>
+                <td>10</td>
+                <td>5</td>
+                <td>5</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td scope="row">Equipo C</td>
+                <td>10</td>
+                <td>6</td>
+                <td>4</td>
+                <td>18</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Equipos</td>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

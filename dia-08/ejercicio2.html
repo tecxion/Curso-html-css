@@ -1,0 +1,67 @@
+<!--Crea una tabla de factura que incluya `<thead>` con encabezados, `<tbody>` con productos y precios, y 
+        `<tfoot>` con el subtotal, IVA y total. Usa al menos 4 productos diferentes.-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Día 8</title>
+</head>
+
+<body>
+    <h1>Ejercicio 2 - Día 8</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio Unitario (€)</th>
+                <th>Cantidad</th>
+                <th>Precio Total (€)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Producto A</td>
+                <td>10.00</td>
+                <td>2</td>
+                <td>20.00</td>
+            </tr>
+            <tr>
+                <td>Producto B</td>
+                <td>15.50</td>
+                <td>1</td>
+                <td>15.50</td>
+            </tr>
+            <tr>
+                <td>Producto C</td>
+                <td>7.25</td>
+                <td>3</td>
+                <td>21.75</td>
+            </tr>
+            <tr>
+                <td>Producto D</td>
+                <td>12.00</td>
+                <td>2</td>
+                <td>24.00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Subtotal</td>
+                <td>81.25</td>
+            </tr>
+            <tr>
+                <td colspan="3">IVA (21%)</td>
+                <td>17.06</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total</td>
+                <td>98.31</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
