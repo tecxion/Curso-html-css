@@ -364,3 +364,7 @@ Crea una tabla compleja que combine colspan, rowspan, estructura semántica (`<t
 - Usa CSS para el estilo visual; las tablas deben usarse solo para datos tabulares.
 - Asegúrate de que las tablas sean responsivas y no causen scroll horizontal excesivo.
 - Prueba tus tablas con lectores de pantalla para verificar la accesibilidad.
+
+<h4 align="center">
+<a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-07">Día 7</a> || <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-09">Día 9</a>
+</h4>
