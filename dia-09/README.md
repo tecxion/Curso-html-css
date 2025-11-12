@@ -35,13 +35,9 @@
     - [type="reset" - Botón de reseteo](#typereset---botón-de-reseteo)
   - [💻 Ejemplos Prácticos](#-ejemplos-prácticos)
     - [Ejemplo 1: Formulario básico de contacto](#ejemplo-1-formulario-básico-de-contacto)
-      - [Código:](#código)
     - [Ejemplo 2: Formulario de registro](#ejemplo-2-formulario-de-registro)
-      - [Código:](#código-1)
     - [Ejemplo 3: Formulario de búsqueda](#ejemplo-3-formulario-de-búsqueda)
-      - [Código:](#código-2)
     - [Ejemplo 4: Formulario con diferentes tipos de input](#ejemplo-4-formulario-con-diferentes-tipos-de-input)
-      - [Código:](#código-3)
   - [✏️ Ejercicios del Día](#️-ejercicios-del-día)
     - [Ejercicio 1: Formulario de login ⭐](#ejercicio-1-formulario-de-login-)
     - [Ejercicio 2: Formulario de suscripción a newsletter ⭐⭐](#ejercicio-2-formulario-de-suscripción-a-newsletter-)
@@ -170,22 +166,12 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
 <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
 ```
 
-- Vista en web:
-
-<label for="nombre">Nombre:</label>
-<input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
-
 ### type="password" - Contraseña
   - Campo para contraseñas donde los caracteres se ocultan automáticamente.
 ```html
 <label for="pass">Contraseña:</label>
 <input type="password" id="pass" name="pass" placeholder="Mínimo 8 caracteres">
 ```
-
-- Vista en la web:
-<label for="pass">Contraseña:</label>
-<input type="password" id="pass" name="pass" placeholder="Mínimo 8 caracteres">
-
 
 ### type="email" - Correo electrónico
   - Campo especializado para direcciones de email con validación automática del formato.
@@ -195,10 +181,6 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
 <input type="email" id="correo" name="correo" placeholder="ejemplo@email.com">
 ```
 
-- Vista en la web:
-<label for="correo">Email:</label>
-<input type="email" id="correo" name="correo" placeholder="ejemplo@email.com">
-
 ### type="number" - Número
   - Campo para valores numéricos con controles de incremento/decremento.
 
@@ -207,20 +189,12 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
 <input type="number" id="edad" name="edad" min="18" max="100">
 ```
 
-- Vista en la web:
-<label for="edad">Edad:</label>
-<input type="number" id="edad" name="edad" min="18" max="100">
-
 ### type="tel" - Teléfono
   - Campo para números telefónicos.
 ```html
 <label for="telefono">Teléfono:</label>
 <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000">
 ```
-
-- Vista en la web:
-<label for="telefono">Teléfono:</label>
-<input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000">
 
 ### type="url" - URL
 - Campo para direcciones web con validación de formato de URL.
@@ -230,19 +204,12 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
 <input type="url" id="web" name="web" placeholder="https://ejemplo.com">
 ```
 
-- Vista en la web:
-<label for="web">Sitio web:</label>
-<input type="url" id="web" name="web" placeholder="https://ejemplo.com">
-
 ### type="submit" - Botón de envío
   - Botón que envía el formulario.
 
 ```html
 <input type="submit" value="Enviar">
 ```
-
-- Vista en la web:
-<input type="submit" value="Enviar">
 
 ### type="reset" - Botón de reseteo
   - Botón que restablece todos los campos del formulario a sus valores iniciales.
@@ -255,7 +222,6 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
 
 ### Ejemplo 1: Formulario básico de contacto
 
-#### Código:
 ```html
 <form action="/enviar-contacto" method="post">
   <label for="nombre">Nombre:</label>
@@ -267,22 +233,9 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
   <input type="submit" value="Enviar">
 </form>
 ```
-
-- Vista en la web:
-<form action="/enviar-contacto" method="post">
-  <label for="nombre">Nombre:</label>
-  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-  
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" placeholder="tu@email.com" required>
-  
-  <input type="submit" value="Enviar">
-</form>
 
 ### Ejemplo 2: Formulario de registro
 
-#### Código:
-
 ```html
 <form action="/registro" method="post" name="registro-usuario">
   <label for="usuario">Nombre de usuario:</label>
@@ -301,29 +254,9 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
   <input type="reset" value="Borrar todo">
 </form>
 ```
-
-- Vista en la web:
-<form action="/registro" method="post" name="registro-usuario">
-  <label for="usuario">Nombre de usuario:</label>
-  <input type="text" id="usuario" name="usuario" placeholder="Usuario123" required>
-  
-  <label for="correo">Correo electrónico:</label>
-  <input type="email" id="correo" name="correo" placeholder="ejemplo@mail.com" required>
-  
-  <label for="password">Contraseña:</label>
-  <input type="password" id="password" name="password" placeholder="Mínimo 8 caracteres" required>
-  
-  <label for="edad">Edad:</label>
-  <input type="number" id="edad" name="edad" min="18" max="120" required>
-  
-  <input type="submit" value="Crear cuenta">
-  <input type="reset" value="Borrar todo">
-</form>
 
 ### Ejemplo 3: Formulario de búsqueda
 
-#### Código:
-
 ```html
 <form action="/buscar" method="get">
   <label for="busqueda">Buscar:</label>
@@ -333,17 +266,7 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
 </form>
 ```
 
-- Vista en la web:
-<form action="/buscar" method="get">
-  <label for="busqueda">Buscar:</label>
-  <input type="text" id="busqueda" name="q" placeholder="¿Qué estás buscando?">
-  
-  <input type="submit" value="Buscar">
-</form>
-
 ### Ejemplo 4: Formulario con diferentes tipos de input
-
-#### Código:
 
 ```html
 <form action="/procesar" method="post">
@@ -365,26 +288,6 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
   <input type="submit" value="Enviar formulario">
 </form>
 ``` 
-
-- Vista en la web:
-<form action="/procesar" method="post">
-  <label for="nombre-completo">Nombre completo:</label>
-  <input type="text" id="nombre-completo" name="nombre" required>
-  
-  <label for="email-contacto">Email:</label>
-  <input type="email" id="email-contacto" name="email" required>
-  
-  <label for="telefono-movil">Teléfono:</label>
-  <input type="tel" id="telefono-movil" name="telefono" placeholder="+34 123456789">
-  
-  <label for="sitio-web">Sitio web:</label>
-  <input type="url" id="sitio-web" name="website" placeholder="https://tusitio.com">
-  
-  <label for="num-personas">Número de personas:</label>
-  <input type="number" id="num-personas" name="personas" min="1" max="10" value="1">
-  
-  <input type="submit" value="Enviar formulario">
-</form>
 
 ## ✏️ Ejercicios del Día
 ### Ejercicio 1: Formulario de login ⭐
