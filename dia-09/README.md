@@ -293,17 +293,17 @@ HTML5 proporciona múltiples tipos de input especializados que incluyen validaci
 ### Ejercicio 1: Formulario de login ⭐
 Crea un formulario de inicio de sesión simple que incluya campos para nombre de usuario (text), contraseña (password) y un botón de envío. Todos los campos deben ser obligatorios y tener placeholders apropiados.
 
-Solución
+[Solución](ejercicio1.html)
 
 ### Ejercicio 2: Formulario de suscripción a newsletter ⭐⭐
 Crea un formulario de suscripción que incluya campos para nombre (text), email (email) y un botón de suscripción. El formulario debe usar el método GET y todos los campos deben tener sus respectivos <label> correctamente asociados.
 
-Solución
+[Solución](ejercicio2.html)
 
 ### Ejercicio 3: Formulario de reserva completo ⭐⭐⭐
 Crea un formulario de reserva de hotel que incluya los siguientes campos: nombre completo (text, requerido), email (email, requerido), teléfono (tel), número de huéspedes (number, mínimo 1, máximo 6), sitio web opcional (url), y botones de enviar y resetear. Usa placeholders descriptivos en todos los campos y asegúrate de que cada input tenga su label asociado correctamente.
 
-Solución
+[Solución](ejercicio3.html)
 
 ## 🔍 Buenas Prácticas
 * Siempre asocia cada <input> con un <label> usando los atributos for e id.
