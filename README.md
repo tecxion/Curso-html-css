@@ -42,7 +42,7 @@ Un curso completo y progresivo para aprender HTML desde cero hasta nivel avanzad
 ### Estructura y Contenido
 - [ ] **Día 7**: [Tablas Básicas](./dia-07) - Crear tablas simples
 - [ ] **Día 8**: [Tablas Avanzadas](./dia-08) - colspan, rowspan y estructura compleja
-- [ ] **Día 9**: [Formularios Parte 1](./dia-9) - Elementos básicos de formularios
+- [ ] **Día 9**: [Formularios Parte 1](./dia-09) - Elementos básicos de formularios
 - [ ] **Día 10**: [Formularios Parte 2](./dia-10) - Textarea, select y button
 - [ ] **Día 11**: [Formularios Parte 3](./dia-11) - Validación HTML5
 - [ ] **Día 12**: [Divs y Spans](./dia-12) - Contenedores genéricos
