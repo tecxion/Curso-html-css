@@ -22,6 +22,14 @@
   - [Etiqueta `<textarea>`](#etiqueta-textarea)
     - [Atributos principales de `<textarea>`](#atributos-principales-de-textarea)
   - [Etiqueta `<select>`](#etiqueta-select)
+    - [Atributos principales de ](#atributos-principales-de-)
+    - [Etiqueta ](#etiqueta-)
+      - [Atributos de ](#atributos-de-)
+      - [Etiqueta ](#etiqueta--1)
+  - [Etiqueta ](#etiqueta--2)
+    - [Tipos de `<button>`](#tipos-de-button)
+    - [Atributos de ](#atributos-de--1)
+  - [💻 Ejemplos Prácticos](#-ejemplos-prácticos)
 
 
 ## 📖 Descripción
@@ -116,4 +124,147 @@ A diferencia de `<input>`, `<textarea>` tiene etiqueta de apertura y cierre. El 
 
 La etiqueta `<select>` crea un menú desplegable que permite al usuario elegir una o varias opciones de una lista predefinida.
 
+```html
+<select name="pais"> 
+    <option value="es">España</option> 
+    <option value="mx">México</option> 
+    <option value="ar">Argentina</option> 
+</select> 
+```
 
+### Atributos principales de <select>
+- name: Identifica el campo para el envío de datos.
+- id: Identificador único, necesario para asociarlo con un <label>.
+- multiple: Permite seleccionar múltiples opciones (manteniendo Ctrl o Cmd).
+
+```html
+<select name="idiomas" multiple>
+  <option value="es">Español</option>
+  <option value="en">Inglés</option>
+  <option value="fr">Francés</option>
+</select>
+```
+
+- size: Especifica cuántas opciones son visibles simultáneamente.
+```html
+<select size="5">
+  <!-- opciones -->
+</select>
+``` 
+
+- required: Hace obligatoria la selección de una opción.
+```html
+<select required>
+  <!-- opciones -->
+</select>
+```
+
+- disabled: Desactiva el menú desplegable completo.
+
+```html
+<select disabled>
+  <!-- opciones -->
+</select>
+```
+
+### Etiqueta <option>
+
+- Define cada opción individual dentro de un `<select>`.
+```html
+<option value="valor">Texto visible</option>
+```
+
+#### Atributos de <option>
+- value: El valor que se enviará al servidor cuando se seleccione esta opción.
+- selected: Marca la opción como preseleccionada.
+```html
+<option value="es" selected>España</option>
+```
+- disabled: Desactiva una opción específica (no se puede seleccionar).
+```html
+<option value="na" disabled>No disponible</option>
+```
+
+#### Etiqueta <optgroup>
+Agrupa opciones relacionadas dentro de un `<select>`, mejorando la organización visual y la accesibilidad.
+
+```html
+<select name="destino">
+  <optgroup label="Europa">
+    <option value="es">España</option>
+    <option value="fr">Francia</option>
+  </optgroup>
+  <optgroup label="América">
+    <option value="mx">México</option>
+    <option value="us">Estados Unidos</option>
+  </optgroup>
+</select>
+```
+El atributo label de `<optgroup>` define el título del grupo y no se puede seleccionar.
+
+## Etiqueta <button>
+
+La etiqueta `<button>` crea un botón más flexible y personalizable que `<input type="submit">`. Puede contener texto, imágenes y otros elementos HTML.
+
+```html
+<button type="submit">Enviar Formulario</button>
+```
+
+### Tipos de `<button>`
+- El atributo type define el comportamiento del botón:
+  - type="submit": Envía el formulario (comportamiento por defecto).
+```html
+<button type="submit">Enviar</button>
+```
+- type="reset": Restablece todos los campos del formulario a sus valores iniciales.
+```html
+<button type="reset">Limpiar formulario</button>
+```
+- type="button": Botón sin comportamiento predeterminado, útil para JavaScript
+```html
+<button type="button" onclick="alert('Hola')">Haz clic</button>
+```
+
+<button type="button" onclick="alert('Hola')">Haz clic</button>
+
+- Ventajas de `<button>` sobre `<input>`
+  - Puede contener HTML (imágenes, iconos, texto formateado).
+  - Más fácil de estilizar con CSS.
+  - Semánticamente más claro.
+```html
+<button type="submit">
+  <img src="icono.png" alt=""> Enviar formulario
+</button>
+```
+
+### Atributos de <button>
+- name y value: Identifican el botón cuando se envía el formulario.
+```html
+<button type="submit" name="accion" value="guardar">Guardar</button>
+```
+- disabled: Desactiva el botón.
+```html
+<button disabled>No disponible</button>
+```
+- form: Asocia el botón con un formulario específico (incluso si está fuera del `<form>`).
+```html
+<button type="submit" form="mi-formulario">Enviar</button>
+```
+
+## 💻 Ejemplos Prácticos
+- Ejemplo 1: Formulario de contacto con textarea.
+```html
+<form action="/contacto" method="post">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  
+  <label for="mensaje">Mensaje:</label>
+  <textarea id="mensaje" name="mensaje" rows="6" cols="50" placeholder="Escribe tu mensaje aquí..." required></textarea>
+  
+  <button type="submit">Enviar mensaje</button>
+  <button type="reset">Borrar todo</button>
+</form>
+``` 
