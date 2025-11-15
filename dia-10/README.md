@@ -23,12 +23,12 @@
     - [Atributos principales de `<textarea>`](#atributos-principales-de-textarea)
   - [Etiqueta `<select>`.](#etiqueta-select)
     - [Atributos principales de `<select>`](#atributos-principales-de-select)
-    - [Etiqueta ](#etiqueta-)
-      - [Atributos de ](#atributos-de-)
-      - [Etiqueta ](#etiqueta--1)
-  - [Etiqueta ](#etiqueta--2)
+    - [Etiqueta `<option>`](#etiqueta-option)
+      - [Atributos de `<option>`](#atributos-de-option)
+      - [Etiqueta ](#etiqueta-)
+  - [Etiqueta ](#etiqueta--1)
     - [Tipos de `<button>`](#tipos-de-button)
-    - [Atributos de ](#atributos-de--1)
+    - [Atributos de ](#atributos-de-)
   - [💻 Ejemplos Prácticos](#-ejemplos-prácticos)
   - [✏️ Ejercicios del Día](#️-ejercicios-del-día)
   - [Buenas Prácticas](#buenas-prácticas)
@@ -168,14 +168,14 @@ La etiqueta `<select>` crea un menú desplegable que permite al usuario elegir u
 </select>
 ```
 
-### Etiqueta <option>
+### Etiqueta `<option>`
 
 - Define cada opción individual dentro de un `<select>`.
 ```html
 <option value="valor">Texto visible</option>
 ```
 
-#### Atributos de <option>
+#### Atributos de `<option>`
 - value: El valor que se enviará al servidor cuando se seleccione esta opción.
 - selected: Marca la opción como preseleccionada.
 ```html
@@ -305,18 +305,6 @@ Código:
   <button type="submit">Reservar</button>
 </form>
 ```
-Ejemplo:
-<form action="/reserva" method="post">
-  <label for="habitacion">Tipo de habitación:</label>
-  <select id="habitacion" name="habitacion" required>
-    <option value="">-- Selecciona una opción --</option>
-    <option value="individual">Individual</option>
-    <option value="doble">Doble</option>
-    <option value="suite" selected>Suite</option>
-  </select>
-  
-  <button type="submit">Reservar</button>
-</form>
 
 ---
 
@@ -410,20 +398,6 @@ Código:
   <button type="button" onclick="alert('Guardado como borrador')">Guardar borrador</button>
 </form>
 ```
-Vista en la web
-<form action="/procesar" method="post">
-  <label for="datos">Datos:</label>
-  <input type="text" id="datos" name="datos">
-  
-  <!-- Botón de envío -->
-  <button type="submit">Enviar</button>
-  
-  <!-- Botón de reseteo -->
-  <button type="reset">Restablecer</button>
-  
-  <!-- Botón sin comportamiento (para JavaScript) -->
-  <button type="button" onclick="alert('Guardado como borrador')">Guardar borrador</button>
-</form>
 
 ---
 ## ✏️ Ejercicios del Día
