@@ -1,5 +1,5 @@
 <h4 align="center">
-<a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-08">Día 8</a> || <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-10">Día 9</a>
+<a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-08">Día 8</a> || <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-10">Día 10</a>
 </h4>
 <h1 align="center">
 <img src="https://github.com/tecxion/Curso-html-css/blob/main/recursos/imagenes/CURSOhtml9.png">
