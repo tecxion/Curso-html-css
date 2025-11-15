@@ -225,8 +225,6 @@ La etiqueta `<button>` crea un botón más flexible y personalizable que `<input
 <button type="button" onclick="alert('Hola')">Haz clic</button>
 ```
 
-<button type="button" onclick="alert('Hola')">Haz clic</button>
-
 - Ventajas de `<button>` sobre `<input>`
   - Puede contener HTML (imágenes, iconos, texto formateado).
   - Más fácil de estilizar con CSS.
