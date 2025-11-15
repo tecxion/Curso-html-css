@@ -23,9 +23,9 @@
     - [Atributos principales de `<textarea>`](#atributos-principales-de-textarea)
   - [Etiqueta `<select>`.](#etiqueta-select)
     - [Atributos principales de `<select>`](#atributos-principales-de-select)
-    - [Etiqueta `<option>`](#etiqueta-option)
-      - [Atributos de `<option>`](#atributos-de-option)
-      - [Etiqueta ](#etiqueta-)
+  - [Etiqueta `<option>`](#etiqueta-option)
+    - [Atributos de `<option>`](#atributos-de-option)
+    - [Etiqueta ](#etiqueta-)
   - [Etiqueta ](#etiqueta--1)
     - [Tipos de `<button>`](#tipos-de-button)
     - [Atributos de ](#atributos-de-)
@@ -168,14 +168,14 @@ La etiqueta `<select>` crea un menú desplegable que permite al usuario elegir u
 </select>
 ```
 
-### Etiqueta `<option>`
+## Etiqueta `<option>`
 
 - Define cada opción individual dentro de un `<select>`.
 ```html
 <option value="valor">Texto visible</option>
 ```
 
-#### Atributos de `<option>`
+### Atributos de `<option>`
 - value: El valor que se enviará al servidor cuando se seleccione esta opción.
 - selected: Marca la opción como preseleccionada.
 ```html
@@ -186,7 +186,7 @@ La etiqueta `<select>` crea un menú desplegable que permite al usuario elegir u
 <option value="na" disabled>No disponible</option>
 ```
 
-#### Etiqueta <optgroup>
+### Etiqueta <optgroup>
 Agrupa opciones relacionadas dentro de un `<select>`, mejorando la organización visual y la accesibilidad.
 
 ```html
@@ -273,21 +273,6 @@ Código:
   <button type="reset">Borrar todo</button>
 </form>
 ```
-Ejemplo:
-<form action="/contacto" method="post">
-  <label for="nombre">Nombre:</label>
-  <input type="text" id="nombre" name="nombre" required>
-  
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-  
-  <label for="mensaje">Mensaje:</label>
-  <textarea id="mensaje" name="mensaje" rows="6" cols="50" placeholder="Escribe tu mensaje aquí..." required></textarea>
-  
-  <button type="submit">Enviar mensaje</button>
-  <button type="reset">Borrar todo</button>
-</form>
-
 ---
 
 - Ejemplo 2: Select simple con opciones:
