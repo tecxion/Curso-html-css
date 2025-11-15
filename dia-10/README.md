@@ -390,11 +390,17 @@ Código:
 - Ejercicio 1: Formulario de comentarios ⭐
 Crea un formulario simple de comentarios que incluya campos para nombre (text), email (email) y un área de comentarios (textarea) con 8 filas y 60 columnas. Añade un botón de envío. Todos los campos deben ser obligatorios.
 
+   - [Solución](ejercicio1.html)
+
 - Ejercicio 2: Selector de país con grupos ⭐⭐
 Crea un formulario con un select que agrupe países por continente usando `<optgroup>`. Incluye al menos 3 continentes con 3 países cada uno. Añade una primera opción deshabilitada que diga "-- Selecciona tu país --". Incluye botones de enviar y resetear.
 
+  - [Solución](ejercicio2.html)
+
 - Ejercicio 3: Formulario completo de encuesta ⭐⭐⭐
 Crea un formulario de encuesta que incluya: nombre (text), email (email), edad (number entre 18 y 100), país de residencia (select con optgroups por continente), nivel de satisfacción (select del 1 al 10), intereses (select múltiple con al menos 6 opciones), y comentarios adicionales (textarea con máximo 300 caracteres). Todos los campos deben tener sus labels correspondientes y usar placeholders apropiados. Incluye tres botones: enviar, resetear y uno personalizado de tipo "button" que muestre una alerta de JavaScript.
+
+   - [Solución](ejercicio3.html)
 
 ## Buenas Prácticas
 - Usa `<textarea>` para textos largos (más de una línea); 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Crea un formulario con un select que agrupe países por continente usando `<optgroup>`. 
+        Incluye al menos 3 continentes con 3 países cada uno. Añade una primera opción 
+        deshabilitada que diga "-- Selecciona tu país --". Incluye botones de enviar y resetear.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Países por Continente</title>
+</head>
+
+<body>
+    <h1>Selecciona tu país</h1>
+    <form action="#" method="post">
+        <label for="pais">País:</label>
+        <select id="pais" name="pais" required>
+            <option value="" disabled selected>-- Selecciona tu país --</option>
+            <optgroup label="América">
+                <option value="argentina">Argentina</option>
+                <option value="brasil">Brasil</option>
+                <option value="canada">Canadá</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="españa">España</option>
+                <option value="francia">Francia</option>
+                <option value="alemania">Alemania</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="china">China</option>
+                <option value="japon">Japón</option>
+                <option value="india">India</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+    </form>
+</body>
+
+</html>

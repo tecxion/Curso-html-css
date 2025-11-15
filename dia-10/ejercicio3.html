@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Crea un formulario de encuesta que incluya: nombre (text), email (email), edad (number entre 18 y 100), 
+    país de residencia (select con optgroups por continente), nivel de satisfacción (select del 1 al 10), intereses 
+    (select múltiple con al menos 6 opciones), y comentarios adicionales (textarea con máximo 300 caracteres). 
+    Todos los campos deben tener sus labels correspondientes y usar placeholders apropiados. Incluye tres botones: enviar, 
+    resetear y uno personalizado de tipo "button" que muestre una alerta de JavaScript.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Encuesta</title>
+</head>
+
+<body>
+    <h1>Formulario de Encuesta</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su email" required><br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" min="18" max="100" required><br><br>
+        <label for="pais">País de Residencia:</label>
+        <select id="pais" name="pais" required>
+            <optgroup label="América">
+                <option value="usa">Estados Unidos</option>
+                <option value="canada">Canadá</option>
+                <option value="mexico">México</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="espana">España</option>
+                <option value="francia">Francia</option>
+                <option value="alemania">Alemania</option>
+            </optgroup>
+            <optgroup label="Asia">
+                <option value="china">China</option>
+                <option value="japon">Japón</option>
+                <option value="india">India</option>
+            </optgroup>
+        </select><br><br>
+        <label for="satisfaccion">Nivel de Satisfacción:</label>
+        <select id="satisfaccion" name="satisfaccion" required>
+            <option value="" disabled selected>Seleccione un nivel</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select><br><br>
+        <label for="intereses">Intereses:</label>
+        <select id="intereses" name="intereses" multiple size="6" required>
+            <option value="tecnologia">Tecnología</option>
+            <option value="deportes">Deportes</option>
+            <option value="musica">Música</option>
+            <option value="arte">Arte</option>
+            <option value="viajes">Viajes</option>
+            <option value="ciencia">Ciencia</option>
+        </select><br><br>
+        <label for="comentarios">Comentarios Adicionales:</label><br>
+        <textarea id="comentarios" name="comentarios" placeholder="Escriba sus comentarios aquí..." maxlength="300"
+            rows="4" cols="50"></textarea><br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+        <button type="button" onclick="alert('¡Gracias por completar la encuesta!');">Mostrar Alerta</button>
+    </form>
+</body>
+
+</html>
