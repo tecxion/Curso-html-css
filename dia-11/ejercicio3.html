@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Día 11</title>
+</head>
+
+<!-- Crea un formulario completo de registro que incluya: nombre de usuario (3-15 caracteres, solo letras, 
+        números, guión y guión bajo), email, contraseña segura (mínimo 8 caracteres con mayúscula, minúscula y número), 
+        confirmación de contraseña (mismo patrón), edad (18-100), fecha de registro (solo fechas futuras desde hoy), 
+        número de referidos (0-999), URL del perfil de LinkedIn (opcional), y color favorito. Usa `<fieldset>` 
+        para agrupar secciones, incluye validaciones con `pattern` donde sea necesario, y asegúrate 
+        de que todos los campos obligatorios tengan mensajes de error personalizados con `title`.-->
+
+<body>
+    <h2>Formulario de Registro</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Información de Usuario</legend>
+
+            <label for="username">Nombre de Usuario (3-15 caracteres, letras, números, guión y guión bajo):</label><br>
+            <input type="text" id="username" name="username" pattern="[A-Za-z0-9_-]{3,15}"
+                title="Debe tener entre 3 y 15 caracteres. Solo letras, números, guión y guión bajo. Ejemplo: user_name123"
+                placeholder="user_name123" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"
+                title="Ingrese una dirección de correo electrónico válida. Ejemplo: tuemail@email.com"
+                placeholder="tuemail@email.com" required><br><br>
+            <label for="password">Contraseña (mínimo 8 caracteres con mayúscula, minúscula y número):</label><br>
+            <input type="password" id="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}"
+                title="Debe tener al menos 8 caracteres, incluyendo una mayúscula, una minúscula y un número. Ejemplo: Password1"
+                placeholder="Password1" required><br><br>
+            <label for="confirm_password">Confirmar Contraseña:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password"
+                pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}"
+                title="Debe coincidir con la contraseña ingresada anteriormente." placeholder="Password1"
+                required><br><br>
+            <label for="age">Edad (18-100):</label><br>
+            <input type="number" id="age" name="age" min="18" max="100"
+                title="Debe tener entre 18 y 100 años. Ejemplo: 25" placeholder="25" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Detalles Adicionales</legend>
+            <label for="registration_date">Fecha de Registro (solo fechas futuras desde hoy):</label><br>
+            <input type="date" id="registration_date" name="registration_date" min=""
+                title="Seleccione una fecha futura desde hoy." required><br><br>
+            <label for="referrals">Número de Referidos (0-999):</label><br>
+            <input type="number" id="referrals" name="referrals" min="0" max="999"
+                title="Debe ser un número entre 0 y 999. Ejemplo: 10" placeholder="10" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Perfil y Preferencias</legend>
+            <label for="linkedin">URL del Perfil de LinkedIn (opcional):</label><br>
+            <input type="url" id="linkedin" name="linkedin"
+                title="Ingrese una URL válida de LinkedIn. Ejemplo: https://www.linkedin.com/in/tu-perfil"
+                placeholder="https://www.linkedin.com/in/tu-perfil"><br><br>
+            <label for="favorite_color">Color Favorito:</label><br>
+            <input type="color" id="favorite_color" name="favorite_color" title="Seleccione su color favorito."
+                required><br><br>
+        </fieldset>
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+
+</html>

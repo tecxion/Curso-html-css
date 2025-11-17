@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Día 11</title>
+</head>
+
+
+<!--Crea un formulario que valide: DNI español (8 números + letra mayúscula), código postal (5 dígitos), 
+teléfono móvil (9 dígitos empezando por 6 o 7), y fecha de nacimiento (entre 1950 y 2007). 
+Incluye atributos title con instrucciones claras y placeholder con ejemplos.-->
+
+<body>
+    <form action="#" method="post">
+        <label for="dni">DNI Español (8 números + letra mayúscula):</label><br>
+        <input type="text" id="dni" name="dni" pattern="\d{8}[A-Z]"
+            title="Debe contener 8 números seguidos de una letra mayúscula. Ejemplo: 12345678A" placeholder="12345678A"
+            required><br><br>
+
+        <label for="codigo_postal">Código Postal (5 dígitos):</label><br>
+        <input type="text" id="codigo_postal" name="codigo_postal" pattern="\d{5}"
+            title="Debe contener exactamente 5 dígitos. Ejemplo: 28013" placeholder="28013" required><br><br>
+
+        <label for="telefono_movil">Teléfono Móvil (9 dígitos empezando por 6 o 7):</label><br>
+        <input type="tel" id="telefono_movil" name="telefono_movil" pattern="[67]\d{8}"
+            title="Debe contener 9 dígitos y empezar por 6 o 7. Ejemplo: 612345678" placeholder="612345678"
+            required><br><br>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento (entre 1950 y 2007):</label><br>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" min="1950-01-01" max="2007-12-31"
+            title="Seleccione una fecha entre 01/01/1950 y 31/12/2007." required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>

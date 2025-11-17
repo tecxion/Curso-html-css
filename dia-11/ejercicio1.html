@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Día 11 </title>
+</head>
+
+<!--Crea un formulario de contacto que incluya: nombre (obligatorio, solo letras, 2-50 caracteres), email (obligatorio), 
+teléfono (opcional, 9 dígitos) y mensaje (obligatorio, mínimo 10 caracteres). Usa los atributos de validación 
+apropiados.-->
+
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form action="#" method="post">
+        <label for="nombre">Nombre (obligatorio, solo letras, 2-50 caracteres):</label><br>
+        <input type="text" id="nombre" name="nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]{2,50}" required><br><br>
+
+        <label for="email">Email (obligatorio):</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono (opcional, 9 dígitos):</label><br>
+        <input type="tel" id="telefono" name="telefono" pattern="\d{9}"><br><br>
+
+        <label for="mensaje">Mensaje (obligatorio, mínimo 10 caracteres):</label><br>
+        <textarea id="mensaje" name="mensaje" minlength="10" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
