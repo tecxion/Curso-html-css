@@ -100,14 +100,14 @@ Dado este HTML simple:
 
 document
 └── html
-├── head
-│   └── title
-│       └── "Mi Página" (texto)
-└── body
-├── h1
-│   └── "Título" (texto)
-└── p
-└── "Un párrafo de texto." (texto)
+     ├── head
+     │   └── title
+     │       └── "Mi Página" (texto)
+     └── body
+          ├── h1
+          │   └── "Título" (texto)
+          └── p
+              └── "Un párrafo de texto." (texto)
 
 ```
 
@@ -154,8 +154,8 @@ Contienen el texto dentro de los elementos. Siempre son hijos de nodos de elemen
 ```
 
 <p>Este es un texto</p>
-└─────────────┘
-Nodo de texto
+    └─────────────┘
+     Nodo de texto
 
 ```
 
@@ -314,11 +314,11 @@ Un nodo que contiene a otro nodo, directa o indirectamente (padre, abuelo, bisab
 
 document
 └── html
-└── body
-├── h1
-│   └── "Bienvenido"
-└── p
-└── "Este es mi sitio web."
+     └── body
+          ├── h1
+          │   └── "Bienvenido"
+          └── p
+              └── "Este es mi sitio web."
 
 ```
 
@@ -350,12 +350,12 @@ div.contenedor
 ├── h2
 │   └── "Mis tareas"
 └── ul
-├── li
-│   └── "Estudiar HTML"
-├── li
-│   └── "Practicar ejercicios"
-└── li
-└── "Hacer proyecto"
+     ├── li
+     │   └── "Estudiar HTML"
+     ├── li
+     │   └── "Practicar ejercicios"
+     └── li
+         └── "Hacer proyecto"
 
 ```
 
@@ -404,8 +404,8 @@ article
 │   └── p
 │       └── "Este es el segundo párrafo."
 └── footer
-└── p
-└── "Publicado el 24/11/2025"
+      └── p
+          └── "Publicado el 24/11/2025"
 
 ```
 
@@ -447,7 +447,7 @@ form
 │   │   └── "Email:"
 │   └── input
 └── button
-└── "Enviar"
+      └── "Enviar"
 
 ```
 
@@ -493,16 +493,16 @@ table
 │       └── th
 │           └── "Edad"
 └── tbody
-├── tr
-│   ├── td
-│   │   └── "Juan"
-│   └── td
-│       └── "25"
-└── tr
-├── td
-│   └── "María"
-└── td
-└── "30"
+     ├── tr
+     │   ├── td
+     │   │   └── "Juan"
+     │   └── td
+     │       └── "25"
+     └── tr
+         ├── td
+         │   └── "María"
+         └── td
+             └── "30"
 
 ```
 
