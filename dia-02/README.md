@@ -212,3 +212,76 @@ Instrucciones:
 <h4 align="center">
 <a href="https://github.com/tecxion/Curso-html-css">Inicio</a> || <a href="https://github.com/tecxion/Curso-html-css/tree/main/dia-03">Día 3</a>
 </h4>
+
+
+### Listas de etiquetas
+
+```html
+<!-- Elementos de Linea-->
+<a> - Crear un enlace
+<abbr> - Crear una abreviatura
+<acronym> - Crear un acrónimo
+<audio> - Crear o insertar un audio
+<b> - Poner en negrita
+<bdo> - Invertir un texto
+<big> - Aumentar el tamaño del texto
+<br> - Crear un salto de línea
+<button> - Crear un botón
+<cite> - Añadir cita
+<code> - Escribir código en HTML
+<dfn> - Escribir una definición usando HTML
+<em> - Enfatizar
+<i> - Poner en cursiva
+<img> - Crear una imagen
+<input> - Crear un campo de entrada
+<kbd> - Definir entradas de teclado
+<label> - Crear una etiqueta para los campos de entrada
+<map> - Definir un mapa de imagen
+<object> - Representar un recurso externo utilizado para multimedia, como audios, vídeos, imágenes, PDF, etc.
+<output> - Representar el resultado de un cálculo
+<q> - Abreviatura Cita
+<samp> - Representa una salida de muestra
+<script> - Escribir código JS
+<select> - Seleccionar elementos
+<small> - Escribir textos pequeños
+<span> - Marcar o separar un texto
+<strong> - Darle mayor importancia al texto
+<sub> - Crear subíndice
+<sup> - Crear superíndice
+<textarea> - Crear un área de texto
+<time> - Representa un período de tiempo específico
+<tt> - Representar teletipo en línea
+<var> - Define una variable
+```
+```html
+<!--Elementos de bloque -->
+<address></address> - Permite escribir información relacionada con una dirección.
+<article></article> - Permite escribir artículos en una sección.
+<aside></aside> - Permite crear una sección indirectamente relacionada con el documento.
+<blockquote></blockquote> - Para crear texto como comillas.
+<canvas></canvas> - Para crear canbas.
+<dd></dd> - Para describir un término o nombre en una lista de descripciones.
+<div></div> - Para crear una sección o cuadro.
+<dl></dl> - Para crear una lista de descripciones.
+<dt></dt> - Para describir un término en una lista de descripciones.
+<fieldset></fieldset> - Para crear elementos relacionados en un formulario.
+<figcaption></figcaption> - Para definir el título de una figura.
+<figure></figure> - Para envolver una figura, diagrama, etc.
+<footer></footer> - Para crear el pie de página de un documento.
+<form> - Para crear un formulario.
+<h1></h1> a <h6></h6> - a Crear encabezados de diferentes tamaños
+<header></header> - Para crear el encabezado de un documento
+<hr /> - Para crear una línea horizontal
+<li></li> - Para crear una lista ordenada o desordenada
+<main></main> - Para ajustar el contenido principal del documento
+<nav><nav> - Para crear la navegación
+<noscript></noscript> - Para describir un contenido alternativo que se mostrará a los usuarios cuando JavaScript esté deshabilitado en sus navegadores.
+<ol></ol> - Para crear una lista ordenada
+<p></p> - Para crear un párrafo
+<pre></pre> - Para crear un contenido con espacios, por ejemplo, un poema
+<section><section> - Para crear una sección
+<table></table> - Para crear una tabla
+<tfoot><tfoot> - Para crear un pie de tabla
+<ul><ul> - Para ajustar o desordenar la lista
+<video></video> - Para crear un video
+```
