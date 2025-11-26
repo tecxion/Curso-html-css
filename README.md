@@ -9,9 +9,22 @@
 
 # 📚 Aprende HTML en 30 Días
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
-![Progress](https://img.shields.io/badge/days-30-blue?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Static Badge](https://img.shields.io/badge/css-yellow?style=for-the-badge&logo=css&logoColor=white&labelColor=black&color=black) ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge) ![Progress](https://img.shields.io/badge/days-30-blue?style=for-the-badge)
+ 
+ ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/tecxion/Curso-html-css) ![GitHub last commit](https://img.shields.io/github/last-commit/tecxion/Curso-html-css) ![GitHub contributors](https://img.shields.io/github/contributors/tecxion/Curso-html-css?style=flat-square) 
+
+ ![GitHub forks](https://img.shields.io/github/forks/tecxion/Curso-html-css) ![GitHub Repo stars](https://img.shields.io/github/stars/tecxion/Curso-html-css) ![GitHub watchers](https://img.shields.io/github/watchers/tecxion/Curso-html-css)
+
+
+ ![GitHub followers](https://img.shields.io/github/followers/tecxion)
+
+
+
+
+
+
+
+
 
 Un curso completo y progresivo para aprender HTML desde cero hasta nivel avanzado en 30 días. Cada día incluye teoría, ejemplos prácticos y ejercicios con soluciones.
 
@@ -154,3 +167,15 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 ⭐ Si este curso te resulta útil, ¡considera darle una estrella!
 
 **¡Comienza tu viaje en el desarrollo web hoy mismo!** 🚀
+
+---
+
+## 💰 ¿Puedes ayudarme a crecer?
+
+<h1 align="center">
+   <a href="https://paypal.me/jfmpkiko">
+<img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Paypal" />  </a><a href="https://coff.ee/tecxart"><img src="https://github.com/tecxion/TecXion/blob/main/Media/cafe1.png" alt="Cafe">
+
+</a>
+</h1>
+
