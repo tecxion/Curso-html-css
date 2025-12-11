@@ -76,11 +76,13 @@ Un curso completo y progresivo para aprender HTML desde cero hasta nivel avanzad
 - [ ] **Día 23**: [Atributos Globales](./dia-23) - class, id, data-*
 - [ ] **Día 24**: [Rutas y Enlaces](./dia-24) - Rutas absolutas y relativas
 - [ ] **Día 25**: [Validación HTML](./dia-25) - W3C Validator
-- [ ] **Día 26**: [Performance](./dia-26) - Optimización y mejores prácticas
-- [ ] **Día 27**: [Estructura de Proyecto](./dia-27) - Organización profesional
-- [ ] **Día 28**: [Proyecto Final Parte 1](./dia-28) - Planificación
-- [ ] **Día 29**: [Proyecto Final Parte 2](./dia-29) - Implementación y despliegue
-- [ ] **Día 30**: [Proyecto Final Parte 3](./dia-30) - Mi primer gran proyecto.
+
+### CSS
+- [ ] **Día 26**: [Inicio de CSS3](./dia-26) - Inicio de Css, definiciones, clases, id
+- [ ] **Día 27**: 
+- [ ] **Día 28**: 
+- [ ] **Día 29**: 
+- [ ] **Día 30**: 
 
 ## 🚀 Cómo Usar Este Repositorio
 
