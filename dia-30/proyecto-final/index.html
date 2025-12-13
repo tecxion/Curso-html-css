@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de desarrollo web - HTML, CSS, JavaScript">
+    <meta name="keywords" content="desarrollo web, portafolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Tu Nombre">
+    <title>Mi Portafolio | Desarrollador Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Header / Navegación -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>&lt;DevPortfolio/&gt;</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Hola, soy <span class="nombre-destacado">Alex Rodríguez</span></h2>
+            <p class="subtitulo">Desarrollador Web Full Stack</p>
+            <p class="descripcion-hero">Creo experiencias web modernas, responsivas y accesibles que transforman ideas
+                en realidad digital.</p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn btn-primary">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="sobre-mi">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="sobre-mi-content">
+                <div class="foto-perfil">
+                    <img src="https://via.placeholder.com/300/667eea/ffffff?text=Foto+Perfil" alt="Foto de perfil">
+                </div>
+                <div class="sobre-mi-texto">
+                    <p class="intro">
+                        Soy un desarrollador web apasionado por crear soluciones digitales innovadoras. Con más de 3
+                        años de experiencia en el desarrollo front-end y back-end, me especializo en construir
+                        aplicaciones web modernas y escalables.
+                    </p>
+                    <p>
+                        Mi enfoque se centra en escribir código limpio, mantenible y eficiente. Me encanta aprender
+                        nuevas tecnologías y mantenerme actualizado con las últimas tendencias en desarrollo web. Cuando
+                        no estoy programando, disfruto contribuir a proyectos de código abierto y compartir
+                        conocimientos con la comunidad.
+                    </p>
+                    <p>
+                        Creo firmemente en el poder de la web para transformar ideas en realidades que impacten
+                        positivamente en la vida de las personas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="habilidades">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="habilidades-grid">
+                <article class="habilidad-card">
+                    <div class="icono">🎨</div>
+                    <h3>Front-End</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React & Vue.js</li>
+                        <li>Sass & Tailwind CSS</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </article>
+
+                <article class="habilidad-card">
+                    <div class="icono">⚙️</div>
+                    <h3>Back-End</h3>
+                    <ul>
+                        <li>Node.js & Express</li>
+                        <li>Python & Django</li>
+                        <li>RESTful APIs</li>
+                        <li>MongoDB & PostgreSQL</li>
+                        <li>Authentication & Security</li>
+                    </ul>
+                </article>
+
+                <article class="habilidad-card">
+                    <div class="icono">🛠️</div>
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Webpack & Vite</li>
+                        <li>Docker</li>
+                        <li>Figma & Adobe XD</li>
+                    </ul>
+                </article>
+
+                <article class="habilidad-card">
+                    <div class="icono">🚀</div>
+                    <h3>Otras Competencias</h3>
+                    <ul>
+                        <li>UI/UX Design</li>
+                        <li>Accesibilidad Web</li>
+                        <li>SEO Optimization</li>
+                        <li>Agile/Scrum</li>
+                        <li>Testing (Jest, Cypress)</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="proyectos-grid">
+                <article class="proyecto-card">
+                    <div class="proyecto-imagen">
+                        <img src="https://via.placeholder.com/600x400/667eea/ffffff?text=E-commerce+Platform"
+                            alt="E-commerce Platform">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Plataforma de comercio electrónico completa con carrito de compras, pasarela de pago
+                            integrada y panel de administración.</p>
+                        <div class="tecnologias">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="proyecto-links">
+                            <a href="#" class="btn-link">Ver Demo</a>
+                            <a href="#" class="btn-link">Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="proyecto-card">
+                    <div class="proyecto-imagen">
+                        <img src="https://via.placeholder.com/600x400/764ba2/ffffff?text=Task+Manager+App"
+                            alt="Task Manager">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Task Manager App</h3>
+                        <p>Aplicación de gestión de tareas con drag & drop, categorías personalizables y sincronización
+                            en tiempo real.</p>
+                        <div class="tecnologias">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                        <div class="proyecto-links">
+                            <a href="#" class="btn-link">Ver Demo</a>
+                            <a href="#" class="btn-link">Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="proyecto-card">
+                    <div class="proyecto-imagen">
+                        <img src="https://via.placeholder.com/600x400/f093fb/ffffff?text=Weather+Dashboard"
+                            alt="Weather Dashboard">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Weather Dashboard</h3>
+                        <p>Dashboard meteorológico interactivo con pronósticos detallados, gráficos y mapas utilizando
+                            APIs externas.</p>
+                        <div class="tecnologias">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">API REST</span>
+                        </div>
+                        <div class="proyecto-links">
+                            <a href="#" class="btn-link">Ver Demo</a>
+                            <a href="#" class="btn-link">Código</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <h3>¿Tienes un proyecto en mente?</h3>
+                    <p>Estoy siempre abierto a nuevas oportunidades y colaboraciones. No dudes en contactarme.</p>
+
+                    <div class="info-item">
+                        <span class="icono">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>alex.rodriguez@email.com</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="icono">📱</span>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+34 123 456 789</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="icono">📍</span>
+                        <div>
+                            <h4>Ubicación</h4>
+                            <p>Madrid, España</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contacto-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>&lt;DevPortfolio/&gt;</h3>
+                    <p>Desarrollador Web Full Stack apasionado por crear experiencias digitales excepcionales.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-mi">Sobre Mí</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Sígueme</h4>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                        <a href="https://twitter.com" target="_blank">Twitter</a>
+                        <a href="https://codepen.io" target="_blank">CodePen</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alex Rodríguez. Todos los derechos reservados. | Diseñado con ❤️ y CSS</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Tarjeta de Producto</title>
+    <link rel="stylesheet" href="style/style.css"> <!-- Enlace al archivo CSS que es opcional-->
+</head>
+
+<body>
+    <!-- Ejercicio 3: Estructura compleja con análisis completo -->
+
+    <article>
+        <header>
+            <h3>Laptop Gaming Pro X15</h3>
+            <span class="precio">$1,299.99</span>
+        </header>
+
+        <div class="contenido">
+            <img src="https://via.placeholder.com/600x400/3498db/ffffff?text=Laptop+Gaming+Pro+X15"
+                alt="Laptop Gaming Pro X15">
+            <p>
+                Esta laptop de <span>alto rendimiento</span> está diseñada para gamers exigentes.
+                Con su procesador de última generación y tarjeta gráfica dedicada, podrás disfrutar de tus juegos
+                favoritos con la máxima calidad.
+            </p>
+        </div>
+
+        <div class="caracteristicas">
+            <ul>
+                <li>Procesador Intel Core i7 de 12ª generación</li>
+                <li>16GB RAM DDR5 y 512GB SSD NVMe</li>
+                <li>Tarjeta gráfica NVIDIA RTX 4060 8GB</li>
+            </ul>
+        </div>
+
+        <footer>
+            <button type="button">Comprar</button>
+            <a href="#detalles">Ver más</a>
+        </footer>
+    </article>
+
+    <!-- 
+    ========================================
+    ANÁLISIS COMPLETO DEL ÁRBOL DOM
+    ========================================
+    
+    (1) ÁRBOL DOM COMPLETO:
+    
+    document
+    └── html
+         ├── head
+         │   ├── meta (charset)
+         │   ├── meta (viewport)
+         │   ├── title
+         │   │   └── "Ejercicio 3 - Tarjeta de Producto" (texto)
+         │   └── style
+         │       └── (reglas CSS como texto)
+         └── body
+              └── article
+                   ├── header
+                   │   ├── h3
+                   │   │   └── "Laptop Gaming Pro X15" (texto)
+                   │   └── span.precio
+                   │       └── "$1,299.99" (texto)
+                   ├── div.contenido
+                   │   ├── img
+                   │   └── p
+                   │       ├── "Esta laptop de " (texto)
+                   │       ├── span
+                   │       │   └── "alto rendimiento" (texto)
+                   │       └── " está diseñada para..." (texto)
+                   ├── div.caracteristicas
+                   │   └── ul
+                   │       ├── li
+                   │       │   └── "Procesador Intel Core i7..." (texto)
+                   │       ├── li
+                   │       │   └── "16GB RAM DDR5..." (texto)
+                   │       └── li
+                   │           └── "Tarjeta gráfica NVIDIA..." (texto)
+                   └── footer
+                        ├── button
+                        │   └── "Comprar" (texto)
+                        └── a
+                            └── "Ver más" (texto)
+    
+    
+    (2) TODOS LOS HERMANOS:
+    
+    Hermanos directos (mismo padre):
+    - h3 y span.precio son hermanos (padre: header)
+    - img y p son hermanos (padre: div.contenido)
+    - header, div.contenido, div.caracteristicas y footer son hermanos (padre: article)
+    - Los 3 elementos li son hermanos entre sí (padre: ul)
+    - button y a son hermanos (padre: footer)
+    - Dentro del párrafo p: los nodos de texto y el span son hermanos
+    
+    
+    (3) TODOS LOS DESCENDIENTES DEL ARTICLE:
+    
+    Descendientes directos (hijos):
+    - header
+    - div.contenido
+    - div.caracteristicas
+    - footer
+    
+    Descendientes indirectos (nietos, bisnietos, etc.):
+    - h3 (nieto)
+    - span.precio (nieto)
+    - img (nieto)
+    - p dentro de div.contenido (nieto)
+    - span dentro de p (bisnieto)
+    - ul (nieto)
+    - Los 3 elementos li (bisnietos)
+    - button (nieto)
+    - a (nieto)
+    - Todos los nodos de texto dentro de cualquier elemento (varios niveles)
+    
+    Total: TODOS los elementos dentro de article son descendientes de article.
+    
+    
+    (4) DIFERENCIA ENTRE HIJOS Y DESCENDIENTES CON EJEMPLOS:
+    
+    HIJOS:
+    - Son elementos que están DIRECTAMENTE contenidos dentro de otro elemento (relación de 1 nivel).
+    - Ejemplo 1: header es HIJO de article (relación directa)
+    - Ejemplo 2: h3 es HIJO de header (relación directa)
+    - Ejemplo 3: ul es HIJO de div.caracteristicas (relación directa)
+    
+    DESCENDIENTES:
+    - Son elementos que están contenidos dentro de otro elemento, ya sea directa o indirectamente (relación de 1 o más niveles).
+    - Incluye hijos, nietos, bisnietos, etc.
+    
+    Ejemplos usando nuestro código:
+    
+    a) El elemento h3:
+       - Es HIJO de header (1 nivel de separación)
+       - Es DESCENDIENTE de article (2 niveles de separación: article → header → h3)
+       - Es DESCENDIENTE de body (3 niveles de separación: body → article → header → h3)
+    
+    b) Los elementos li:
+       - Son HIJOS de ul (1 nivel de separación)
+       - Son DESCENDIENTES de div.caracteristicas (2 niveles: div.caracteristicas → ul → li)
+       - Son DESCENDIENTES de article (3 niveles: article → div.caracteristicas → ul → li)
+       - NO son hijos de article (hay elementos intermedios)
+    
+    c) El span dentro del párrafo:
+       - Es HIJO de p (1 nivel de separación)
+       - Es DESCENDIENTE de div.contenido (2 niveles: div.contenido → p → span)
+       - Es DESCENDIENTE de article (3 niveles: article → div.contenido → p → span)
+    
+    REGLA CLAVE:
+    - TODOS los hijos son descendientes
+    - NO todos los descendientes son hijos
+    - Un hijo tiene exactamente 1 nivel de separación con su padre
+    - Un descendiente puede tener 1 o más niveles de separación con su ancestro
+    
+    ========================================
+    -->
+</body>
+
+</html>

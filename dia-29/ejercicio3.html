@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Layout Completo</title>
+    <link rel="stylesheet" href="styles/style3.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="logo">
+                <h1>📱 MiApp</h1>
+            </div>
+            <nav class="nav">
+                <a href="#dashboard">Dashboard</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#equipo">Equipo</a>
+                <a href="#reportes">Reportes</a>
+            </nav>
+            <div class="user">
+                <button>👤 Usuario</button>
+            </div>
+        </header>
+
+        <div class="main-container">
+            <aside class="sidebar">
+                <h3>Menú</h3>
+                <ul>
+                    <li><a href="#inicio">🏠 Inicio</a></li>
+                    <li><a href="#tareas">✓ Tareas</a></li>
+                    <li><a href="#calendario">📅 Calendario</a></li>
+                    <li><a href="#mensajes">💬 Mensajes</a></li>
+                    <li><a href="#archivos">📁 Archivos</a></li>
+                    <li><a href="#configuracion">⚙️ Configuración</a></li>
+                </ul>
+            </aside>
+
+            <main class="content">
+                <h2>Dashboard Principal</h2>
+
+                <div class="tarjetas-grid">
+                    <div class="tarjeta">
+                        <h3>Proyectos Activos</h3>
+                        <p class="numero">12</p>
+                        <p>3 nuevos esta semana</p>
+                    </div>
+
+                    <div class="tarjeta">
+                        <h3>Tareas Completadas</h3>
+                        <p class="numero">48</p>
+                        <p>+15% vs semana anterior</p>
+                    </div>
+
+                    <div class="tarjeta">
+                        <h3>Equipo</h3>
+                        <p class="numero">24</p>
+                        <p>Miembros activos</p>
+                    </div>
+
+                    <div class="tarjeta">
+                        <h3>Rendimiento</h3>
+                        <p class="numero">94%</p>
+                        <p>Objetivos cumplidos</p>
+                    </div>
+                </div>
+
+                <div class="seccion-actividad">
+                    <h3>Actividad Reciente</h3>
+                    <div class="actividad-item">
+                        <p><strong>María García</strong> completó la tarea "Diseño de interfaz"</p>
+                        <span>Hace 2 horas</span>
+                    </div>
+                    <div class="actividad-item">
+                        <p><strong>Carlos López</strong> agregó un nuevo proyecto</p>
+                        <span>Hace 4 horas</span>
+                    </div>
+                    <div class="actividad-item">
+                        <p><strong>Ana Martínez</strong> comentó en "Desarrollo Backend"</p>
+                        <span>Hace 6 horas</span>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-columna">
+                <h4>Sobre Nosotros</h4>
+                <p>Plataforma de gestión de proyectos</p>
+            </div>
+            <div class="footer-columna">
+                <h4>Enlaces</h4>
+                <a href="#">Ayuda</a>
+                <a href="#">Términos</a>
+                <a href="#">Privacidad</a>
+            </div>
+            <div class="footer-columna">
+                <h4>Contacto</h4>
+                <p>contacto@miapp.com</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

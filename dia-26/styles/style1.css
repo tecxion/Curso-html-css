@@ -1,0 +1,33 @@
+/* Ejercicio 1: Primera hoja de estilos */
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+ul {
+    color: #555;
+    line-height: 1.8;
+}
+
+li {
+    margin: 5px 0;
+}

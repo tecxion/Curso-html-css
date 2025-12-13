@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Árbol DOM Básico</title>
+</head>
+<body>
+    <!-- Ejercicio 1: Dibujar árbol DOM básico -->
+    
+    <div>
+        <h2>Mi perfil</h2>
+        <p>Soy un estudiante apasionado por el desarrollo web. Me encanta aprender HTML, CSS y JavaScript para crear experiencias web increíbles.</p>
+        <img src="https://via.placeholder.com/300x200" alt="Foto de perfil">
+    </div>
+
+    <!-- 
+    ÁRBOL DOM:
+    
+    document
+    └── html
+         ├── head
+         │   ├── meta (charset)
+         │   ├── meta (viewport)
+         │   └── title
+         │       └── "Ejercicio 1 - Árbol DOM Básico" (texto)
+         └── body
+              └── div
+                   ├── h2
+                   │   └── "Mi perfil" (texto)
+                   ├── p
+                   │   └── "Soy un estudiante apasionado..." (texto)
+                   └── img
+    
+    RELACIONES PADRE-HIJO:
+    - div es PADRE de: h2, p, img
+    - h2, p, img son HIJOS de: div
+    - h2, p, img son HERMANOS entre sí
+    - body es PADRE de: div
+    - div es HIJO de: body
+    - html es ANCESTRO de todos los elementos
+    - Todos los elementos dentro de div son DESCENDIENTES de body y html
+    -->
+</body>
+</html>

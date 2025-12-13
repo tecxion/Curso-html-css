@@ -1,0 +1,69 @@
+/* Ejercicio 2: Tarjetas de productos */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.contenedor-tarjetas {
+    text-align: center;
+}
+
+.tarjeta {
+    width: 280px;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.tarjeta h2 {
+    color: #333;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.precio {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #667eea;
+    margin: 0;
+}

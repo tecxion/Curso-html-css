@@ -1,0 +1,349 @@
+/* Ejercicio 3: Diseño tipográfico completo */
+
+:root {
+    --color-primary: #667eea;
+    --color-secondary: #764ba2;
+    --color-accent: #f093fb;
+    --color-text: #2c3e50;
+    --color-text-light: #7f8c8d;
+    --color-bg: #ffffff;
+    --color-bg-light: #f8f9fa;
+
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Lora', serif;
+    --font-sans: 'Montserrat', sans-serif;
+
+    --size-base: 1rem;
+    --size-small: 0.875rem;
+    --size-large: 1.25rem;
+    --size-xlarge: 2rem;
+    --size-xxlarge: 3rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    background-color: var(--color-bg-light);
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: var(--font-display);
+    font-size: var(--size-xxlarge);
+    font-weight: 900;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+nav {
+    font-family: var(--font-sans);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: var(--size-base);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+/* Main Layout */
+main {
+    max-width: 1400px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.articulo-principal {
+    flex: 1;
+    background-color: var(--color-bg);
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Article Header */
+.articulo-header h2 {
+    font-family: var(--font-display);
+    font-size: var(--size-xxlarge);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+}
+
+.meta {
+    font-family: var(--font-sans);
+    font-size: var(--size-small);
+    color: var(--color-text-light);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.autor {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.fecha {
+    font-style: italic;
+}
+
+/* Imagen Destacada */
+.imagen-destacada {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* Contenido del Artículo */
+.contenido p {
+    font-size: var(--size-large);
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+/* Drop Cap - Primera letra grande */
+.primer-parrafo::first-letter {
+    font-family: var(--font-display);
+    font-size: 4.5rem;
+    font-weight: 700;
+    float: left;
+    line-height: 0.8;
+    margin: 0.1em 0.1em 0 0;
+    color: var(--color-primary);
+}
+
+/* Texto Resaltado */
+.resaltado {
+    background: linear-gradient(120deg, var(--color-accent) 0%, var(--color-accent) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: 0 85%;
+    padding: 0 0.2em;
+    font-weight: 600;
+}
+
+/* Citas */
+.cita {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--color-text);
+    border-left: 4px solid var(--color-primary);
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    background-color: var(--color-bg-light);
+    position: relative;
+}
+
+.cita cite {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: var(--size-small);
+    font-style: normal;
+    margin-top: 1rem;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+.widget {
+    background-color: var(--color-bg);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.widget h3 {
+    font-family: var(--font-sans);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.widget ul {
+    list-style: none;
+}
+
+.widget li {
+    margin-bottom: 0.8rem;
+}
+
+.widget a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: var(--size-small);
+    transition: color 0.3s ease;
+}
+
+.widget a:hover {
+    color: var(--color-primary);
+}
+
+/* Widget Destacado */
+.widget.destacado {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    color: white;
+}
+
+.widget.destacado h3 {
+    color: white;
+}
+
+.widget.destacado p {
+    font-family: var(--font-sans);
+    font-size: var(--size-small);
+    margin-bottom: 1rem;
+}
+
+.widget.destacado button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: white;
+    color: var(--color-primary);
+    border: none;
+    border-radius: 50px;
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: var(--size-base);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.widget.destacado button:hover {
+    transform: scale(1.05);
+}
+
+/* Tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    background-color: var(--color-bg-light);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-text);
+    color: white;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-sans);
+}
+
+.footer-content p {
+    font-size: var(--size-small);
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: var(--size-small);
+    transition: opacity 0.3s ease;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+        letter-spacing: 0.2em;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .articulo-principal {
+        padding: 1.5rem;
+    }
+
+    .articulo-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .contenido p {
+        font-size: 1rem;
+    }
+
+    .primer-parrafo::first-letter {
+        font-size: 3rem;
+    }
+}

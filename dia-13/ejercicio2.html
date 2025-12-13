@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Identificar Relaciones</title>
+</head>
+
+<body>
+    <!-- Ejercicio 2: Identificar relaciones -->
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Bienvenido a nuestra página</h2>
+        <p>Este es el primer párrafo que describe nuestros servicios y lo que ofrecemos a nuestros clientes.</p>
+        <p>En este segundo párrafo explicamos nuestra misión y visión como empresa comprometida con la excelencia.</p>
+    </section>
+
+    <!-- 
+    ANÁLISIS DE RELACIONES:
+    
+    (1) TODOS LOS NODOS PADRE:
+        - body es padre de: nav, section
+        - nav es padre de: ul
+        - ul es padre de: li (los 4 elementos li)
+        - Cada li es padre de: su respectivo elemento a
+        - section es padre de: h2, p (primer párrafo), p (segundo párrafo)
+    
+    (2) TODOS LOS PARES DE HERMANOS:
+        - nav y section son hermanos (ambos hijos de body)
+        - Los 4 elementos li son hermanos entre sí (todos hijos de ul)
+        - h2 y el primer p son hermanos
+        - h2 y el segundo p son hermanos
+        - El primer p y el segundo p son hermanos
+        - (Los 3 elementos dentro de section: h2, p, p son hermanos entre sí)
+    
+    (3) RELACIONES DESCENDIENTE-ANCESTRO:
+        a) Todos los elementos a son DESCENDIENTES de nav
+           nav es ANCESTRO de todos los elementos a
+        
+        b) Todos los elementos li son DESCENDIENTES de body
+           body es ANCESTRO de todos los elementos li
+        
+        c) Los elementos h2 y ambos p son DESCENDIENTES de body
+           body es ANCESTRO de h2 y ambos p
+        
+        d) Todos los elementos a son DESCENDIENTES de body
+           body es ANCESTRO de todos los elementos a
+        
+        e) El elemento ul es DESCENDIENTE de body
+           body es ANCESTRO de ul
+    
+    NOTA: La diferencia entre hijo y descendiente es que:
+    - HIJO: relación directa de un nivel (ejemplo: ul es hijo de nav)
+    - DESCENDIENTE: relación de uno o más niveles (ejemplo: los elementos a son descendientes de nav, pero no hijos directos)
+    -->
+</body>
+
+</html>

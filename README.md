@@ -77,12 +77,12 @@ Un curso completo y progresivo para aprender HTML desde cero hasta nivel avanzad
 - [ ] **Día 24**: [Rutas y Enlaces](./dia-24) - Rutas absolutas y relativas
 - [ ] **Día 25**: [Validación HTML](./dia-25) - W3C Validator
 
-### CSS
-- [ ] **Día 26**: [Inicio de CSS3](./dia-26) - Inicio de Css, definiciones, clases, id
-- [ ] **Día 27**: 
-- [ ] **Día 28**: 
-- [ ] **Día 29**: 
-- [ ] **Día 30**: 
+### Fundamentos de CSS3
+- [ ] **Día 26**: [Introducción a CSS3](./dia-26) - Sintaxis, selectores básicos, formas de aplicar CSS
+- [ ] **Día 27**: [Modelo de Caja](./dia-27) - Padding, margin, border y box-sizing
+- [ ] **Día 28**: [Tipografía y Colores](./dia-28) - Fuentes, colores, unidades y propiedades de texto
+- [ ] **Día 29**: [Flexbox](./dia-29) - Layouts flexibles con Flexbox
+- [ ] **Día 30**: [CSS Grid y Proyecto Final](./dia-30) - Grid layout y proyecto completo
 
 ## 🚀 Cómo Usar Este Repositorio
 

@@ -518,6 +518,8 @@ table
 
 ## ✏️ Ejercicios del Día
 
+> [!NOTE]
+> Estas soluciones las generé con IA ya que no tuve tiempo de hacerlos manualmente y quería seguir avanzando en el tema.
 
 ### Ejercicio 1: Dibujar árbol DOM básico ⭐
 Crea un documento HTML con la siguiente estructura: un `div` que contenga un `h2` con el texto "Mi perfil", un `p` con tu descripción, y una imagen. Luego dibuja (en papel o comentario HTML) el árbol DOM mostrando todas las relaciones padre-hijo.
@@ -547,6 +549,11 @@ Crea un documento HTML completo que represente una tarjeta de producto con la si
 - Los comentarios HTML pueden ayudarte a documentar estructuras DOM complejas.
 - Una buena estructura DOM facilita tanto el CSS como el JavaScript posterior.
 - Usa herramientas de desarrollo del navegador (F12) para visualizar el árbol DOM de tus páginas.
+
+## 📘 Nota sobre CSS
+
+> [!NOTE]
+> A partir de este día, los ejercicios y ejemplos comenzarán a incluir estilos CSS para mejorar la presentación visual. Si aún no conoces CSS o quieres aprender a estilizar tus páginas HTML, te recomendamos que visites el **[Día 26: Introducción a CSS3](../dia-26)** donde aprenderás los fundamentos de CSS, selectores, y cómo aplicar estilos a tus documentos HTML. Puedes continuar con los días 14-25 para aprender más HTML semántico y luego regresar a CSS, o aprender CSS ahora para entender mejor los ejemplos estilizados.
 
 
 <h4 align="center">
