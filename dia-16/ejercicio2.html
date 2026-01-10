@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Galería de Videos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Tutoriales de Desarrollo Web</h1>
+        <nav>
+            <a href="#html">HTML</a> |
+            <a href="#css">CSS</a> |
+            <a href="#javascript">JavaScript</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="html">
+            <h2>Tutoriales de HTML</h2>
+
+            <article>
+                <h3>Introducción a HTML5</h3>
+                <video controls width="640" height="360"
+                    poster="https://via.placeholder.com/640x360/4A90E2/ffffff?text=HTML5+Tutorial" preload="metadata">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    <source src="videos/html5-intro.webm" type="video/webm">
+                    <!-- Subtítulos para accesibilidad -->
+                    <track kind="subtitles" src="subtitles/html5-es.vtt" srclang="es" label="Español" default>
+                    <track kind="subtitles" src="subtitles/html5-en.vtt" srclang="en" label="English">
+                    Tu navegador no soporta el elemento video.
+                </video>
+                <p><strong>Duración:</strong> 15 minutos</p>
+                <p><strong>Nivel:</strong> Principiante</p>
+                <p>Aprende los fundamentos de HTML5 en este tutorial completo. Cubrimos la estructura básica, elementos
+                    semánticos y mejores prácticas.</p>
+            </article>
+
+            <article>
+                <h3>Formularios HTML Avanzados</h3>
+                <video controls width="640" height="360"
+                    poster="https://via.placeholder.com/640x360/7B68EE/ffffff?text=Formularios+HTML" preload="metadata">
+                    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+                    <source src="videos/formularios.webm" type="video/webm">
+                    <track kind="subtitles" src="subtitles/formularios-es.vtt" srclang="es" label="Español" default>
+                    Tu navegador no soporta el elemento video.
+                </video>
+                <p><strong>Duración:</strong> 22 minutos</p>
+                <p><strong>Nivel:</strong> Intermedio</p>
+                <p>Domina los formularios HTML con validación, nuevos tipos de input y mejores prácticas de
+                    accesibilidad.</p>
+            </article>
+        </section>
+
+        <section id="css">
+            <h2>Tutoriales de CSS</h2>
+
+            <article>
+                <h3>CSS Grid Layout</h3>
+                <video controls width="640" height="360"
+                    poster="https://via.placeholder.com/640x360/FF6B6B/ffffff?text=CSS+Grid" preload="metadata">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    <source src="videos/css-grid.webm" type="video/webm">
+                    <track kind="subtitles" src="subtitles/css-grid-es.vtt" srclang="es" label="Español" default>
+                    <track kind="subtitles" src="subtitles/css-grid-en.vtt" srclang="en" label="English">
+                    Tu navegador no soporta el elemento video.
+                </video>
+                <p><strong>Duración:</strong> 28 minutos</p>
+                <p><strong>Nivel:</strong> Intermedio</p>
+                <p>Aprende a crear layouts complejos y responsivos con CSS Grid. Incluye ejemplos prácticos y casos de
+                    uso reales.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Recursos Adicionales</h2>
+            <section>
+                <h3>Más Vistos</h3>
+                <ol>
+                    <li><a href="#">JavaScript para principiantes</a></li>
+                    <li><a href="#">Flexbox vs Grid</a></li>
+                    <li><a href="#">Responsive Design</a></li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Nuevo Contenido</h3>
+                <p>Suscríbete para recibir notificaciones de nuevos tutoriales.</p>
+                <form>
+                    <input type="email" placeholder="tu@email.com" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Tutoriales de Desarrollo Web</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Canvas</title>
+</head>
+
+<body>
+    <h1>Dibujo con Canvas</h1>
+
+    <canvas id="miCanvas" width="400" height="400" style="border: 1px solid #ccc;"></canvas>
+
+    <script>
+        const canvas = document.getElementById('miCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Fondo (cielo)
+        ctx.fillStyle = '#87CEEB';
+        ctx.fillRect(0, 0, 400, 400);
+
+        // Sol
+        ctx.beginPath();
+        ctx.arc(350, 50, 30, 0, 2 * Math.PI);
+        ctx.fillStyle = '#FFD700';
+        ctx.fill();
+
+        // Tierra
+        ctx.fillStyle = '#90EE90';
+        ctx.fillRect(0, 200, 400, 200);
+
+        // Casa
+        ctx.fillStyle = '#D2691E';
+        ctx.fillRect(150, 180, 100, 80);
+
+        // Techo
+        ctx.beginPath();
+        ctx.moveTo(150, 180);
+        ctx.lineTo(200, 140);
+        ctx.lineTo(250, 180);
+        ctx.closePath();
+        ctx.fillStyle = '#8B4513';
+        ctx.fill();
+
+        // Puerta
+        ctx.fillStyle = '#654321';
+        ctx.fillRect(180, 220, 40, 40);
+    </script>
+</body>
+
+</html>

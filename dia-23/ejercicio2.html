@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Data Attributes</title>
+</head>
+
+<body>
+    <h1>Galería de Productos</h1>
+
+    <div class="product-gallery">
+        <article class="product" data-id="1" data-name="Laptop HP" data-price="899" data-category="Electrónica">
+            <img src="https://via.placeholder.com/200" alt="Laptop HP">
+            <h2>Laptop HP</h2>
+            <p>Precio: €899</p>
+            <button onclick="showInfo(this.parentElement)">Ver Detalles</button>
+        </article>
+
+        <article class="product" data-id="2" data-name="Mouse Logitech" data-price="29" data-category="Accesorios">
+            <img src="https://via.placeholder.com/200" alt="Mouse">
+            <h2>Mouse Logitech</h2>
+            <p>Precio: €29</p>
+            <button onclick="showInfo(this.parentElement)">Ver Detalles</button>
+        </article>
+    </div>
+
+    <div id="info"></div>
+
+    <script>
+        function showInfo(product) {
+            const id = product.dataset.id;
+            const name = product.dataset.name;
+            const price = product.dataset.price;
+            const category = product.dataset.category;
+
+            document.getElementById('info').innerHTML = `
+            <h3>Información del Producto</h3>
+            <p>ID: ${id}</p>
+            <p>Nombre: ${name}</p>
+            <p>Precio: €${price}</p>
+            <p>Categoría: ${category}</p>
+        `;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Reproductor de Audio Básico</title>
+</head>
+
+<body>
+    <header>
+        <h1>Podcast: Desarrollo Web Moderno</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Episodio 15: HTML Semántico</h2>
+            <p>Publicado el <time datetime="2025-01-08">8 de enero, 2025</time></p>
+
+            <figure>
+                <audio controls preload="metadata">
+                    <!-- Múltiples fuentes para compatibilidad -->
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    <source src="audio/episodio-15.ogg" type="audio/ogg">
+                    Tu navegador no soporta el elemento audio.
+                    <a href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">Descarga el audio</a>
+                </audio>
+                <figcaption><strong>Duración:</strong> 45 minutos</figcaption>
+            </figure>
+
+            <section>
+                <h3>Descripción del episodio</h3>
+                <p>En este episodio exploramos el HTML semántico y cómo utilizarlo correctamente para crear páginas web
+                    más accesibles y optimizadas para SEO.</p>
+                <p>Aprenderás sobre los elementos article, section y aside, y cuándo usar cada uno de ellos.</p>
+            </section>
+
+            <section>
+                <h3>Temas tratados</h3>
+                <ul>
+                    <li>Introducción al HTML semántico</li>
+                    <li>Diferencias entre article, section y aside</li>
+                    <li>Mejores prácticas y ejemplos reales</li>
+                    <li>Beneficios para SEO y accesibilidad</li>
+                    <li>Errores comunes y cómo evitarlos</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Recursos mencionados</h3>
+                <ul>
+                    <li><a href="#">Documentación MDN sobre HTML Semántico</a></li>
+                    <li><a href="#">Guía de accesibilidad web</a></li>
+                    <li><a href="#">Ejemplos de código en GitHub</a></li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Podcast Desarrollo Web Moderno</p>
+    </footer>
+</body>
+
+</html>

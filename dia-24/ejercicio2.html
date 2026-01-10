@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Navegación Multinivel</title>
+</head>
+
+<body>
+    <h1>Navegación Multinivel</h1>
+
+    <p>Estructura de carpetas:</p>
+    <pre>
+mi-sitio/
+├── index.html
+├── paginas/
+│   ├── sobre-nosotros.html
+│   └── blog/
+│       └── post.html
+└── recursos/
+    ├── css/
+    └── images/
+    </pre>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio (un nivel arriba)</a></li>
+            <li><a href="sobre-nosotros.html">Sobre Nosotros (mismo nivel)</a></li>
+            <li><a href="blog/post.html">Blog Post (subdirectorio)</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

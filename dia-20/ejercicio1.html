@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Formulario Accesible</title>
+    <style>
+        .skip-link {
+            position: absolute;
+            left: -9999px;
+            z-index: 999;
+        }
+
+        .skip-link:focus {
+            left: 0;
+            background: #000;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header>
+        <h1>Formulario de Contacto Accesible</h1>
+    </header>
+
+    <main id="main-content">
+        <form aria-labelledby="form-title">
+            <h2 id="form-title">Contáctanos</h2>
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required aria-required="true">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-required="true" aria-describedby="email-help">
+            <p id="email-help">Usaremos tu email solo para responderte</p>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required aria-required="true"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+
+</html>

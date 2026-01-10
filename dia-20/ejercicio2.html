@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Navegación Accesible</title>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link" style="position: absolute; left: -9999px;">Saltar al contenido
+        principal</a>
+
+    <header role="banner">
+        <h1>Mi Sitio Web Accesible</h1>
+        <nav role="navigation" aria-label="Navegación principal">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <article>
+            <h2>Bienvenido</h2>
+            <p>Este es un sitio web diseñado con accesibilidad en mente.</p>
+        </article>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2025 Mi Sitio Web</p>
+    </footer>
+</body>
+
+</html>

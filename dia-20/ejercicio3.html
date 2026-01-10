@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Página Completa Accesible</title>
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Saltar al contenido</a>
+
+    <header role="banner">
+        <h1>Blog Accesible</h1>
+        <nav role="navigation" aria-label="Navegación principal">
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#articles">Artículos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <article aria-labelledby="article-title">
+            <header>
+                <h2 id="article-title">Accesibilidad Web en 2025</h2>
+                <p>Por <span>Juan Pérez</span> - <time datetime="2025-01-09">9 de enero, 2025</time></p>
+            </header>
+
+            <img src="https://via.placeholder.com/800x400" alt="Persona usando lector de pantalla" width="800"
+                height="400">
+
+            <p>La accesibilidad web es fundamental para crear una web inclusiva para todos.</p>
+
+            <section aria-labelledby="benefits-title">
+                <h3 id="benefits-title">Beneficios</h3>
+                <ul>
+                    <li>Mayor alcance de audiencia</li>
+                    <li>Mejor SEO</li>
+                    <li>Cumplimiento legal</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2025 Blog Accesible</p>
+    </footer>
+</body>
+
+</html>

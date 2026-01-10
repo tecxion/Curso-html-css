@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Página de Contacto con Mapa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #4A90E2;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 450px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para ayudarte</p>
+    </header>
+
+    <div class="container">
+        <div class="contact-grid">
+            <section>
+                <h2>Información de Contacto</h2>
+                <p><strong>Dirección:</strong><br>
+                    Calle Mayor 123<br>
+                    28013 Madrid, España</p>
+
+                <p><strong>Teléfono:</strong><br>
+                    +34 91 123 45 67</p>
+
+                <p><strong>Email:</strong><br>
+                    info@ejemplo.com</p>
+
+                <p><strong>Horario:</strong><br>
+                    Lunes a Viernes: 9:00 - 18:00<br>
+                    Sábados: 10:00 - 14:00</p>
+            </section>
+
+            <section>
+                <h2>Nuestra Ubicación</h2>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6!2d-3.7037902!3d40.4167754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3253%3A0x40418bb3e0019827!2sPuerta%20del%20Sol!5e0!3m2!1ses!2ses!4v1234567890"
+                        allowfullscreen="" loading="lazy" title="Ubicación de nuestra oficina en Madrid">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

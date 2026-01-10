@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - SVG vs Canvas</title>
+</head>
+
+<body>
+    <h1>Comparación: SVG vs Canvas</h1>
+
+    <h2>SVG</h2>
+    <svg width="200" height="200" style="border: 1px solid #ccc;">
+        <circle cx="100" cy="100" r="50" fill="#4A90E2" />
+        <rect x="75" y="75" width="50" height="50" fill="#FF6B6B" opacity="0.7" />
+    </svg>
+
+    <h2>Canvas</h2>
+    <canvas id="canvas" width="200" height="200" style="border: 1px solid #ccc;"></canvas>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Círculo
+        ctx.beginPath();
+        ctx.arc(100, 100, 50, 0, 2 * Math.PI);
+        ctx.fillStyle = '#4A90E2';
+        ctx.fill();
+
+        // Rectángulo
+        ctx.fillStyle = 'rgba(255, 107, 107, 0.7)';
+        ctx.fillRect(75, 75, 50, 50);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Galería Multimedia</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 4rem;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .video-item {
+            background: #f4f4f4;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .map-section {
+            height: 500px;
+            margin-top: 2rem;
+        }
+
+        .map-section iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Galería Multimedia</h1>
+        <p>Videos, mapas y contenido embebido</p>
+    </header>
+
+    <div class="container">
+        <!-- Sección de Videos -->
+        <section>
+            <h2>📹 Tutoriales en Video</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" title="Tutorial HTML5" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3>HTML5 desde Cero</h3>
+                    <p>Aprende HTML5 completo en este tutorial.</p>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/OWKXEJN67FE" title="Tutorial CSS" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3>CSS Completo</h3>
+                    <p>Domina CSS con este curso completo.</p>
+                </div>
+
+                <div class="video-item">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/z95mZVUcJ-E" title="Tutorial JavaScript"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <h3>JavaScript Moderno</h3>
+                    <p>JavaScript ES6+ explicado paso a paso.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Mapa -->
+        <section>
+            <h2>🗺️ Nuestra Ubicación</h2>
+            <p>Visítanos en nuestra oficina en el centro de Madrid</p>
+            <div class="map-section">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6!2d-3.7037902!3d40.4167754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422997800a3253%3A0x40418bb3e0019827!2sPuerta%20del%20Sol!5e0!3m2!1ses!2ses!4v1234567890"
+                    allowfullscreen="" loading="lazy" title="Mapa de ubicación">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Sección de Redes Sociales -->
+        <section>
+            <h2>📱 Síguenos en Redes Sociales</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <h3>Twitter</h3>
+                    <p>Síguenos en Twitter para las últimas actualizaciones</p>
+                    <a href="https://twitter.com" target="_blank">@ejemplo</a>
+                </div>
+
+                <div class="video-item">
+                    <h3>LinkedIn</h3>
+                    <p>Conéctate con nosotros profesionalmente</p>
+                    <a href="https://linkedin.com" target="_blank">linkedin.com/company/ejemplo</a>
+                </div>
+
+                <div class="video-item">
+                    <h3>GitHub</h3>
+                    <p>Revisa nuestros proyectos open source</p>
+                    <a href="https://github.com" target="_blank">github.com/ejemplo</a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Formulario de Reserva</title>
+</head>
+
+<body>
+    <h1>Reserva de Restaurante</h1>
+
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" placeholder="123456789">
+
+        <label for="fecha">Fecha de reserva:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" min="12:00" max="23:00" required>
+
+        <label for="personas">Número de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" max="10" value="2">
+
+        <label for="color-tema">Color de tema preferido:</label>
+        <input type="color" id="color-tema" name="color-tema" value="#4A90E2">
+
+        <button type="submit">Reservar</button>
+    </form>
+</body>
+
+</html>

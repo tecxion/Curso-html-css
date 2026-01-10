@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Página Multimedia Completa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .hero {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #4A90E2;
+            padding-bottom: 0.5rem;
+        }
+
+        article {
+            background: #f4f4f4;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+
+        article h3 {
+            color: #4A90E2;
+            margin-bottom: 1rem;
+        }
+
+        video,
+        audio {
+            max-width: 100%;
+            margin: 1rem 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sección Hero con video de fondo -->
+    <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="videos/hero-background.webm" type="video/webm">
+        </video>
+
+        <div class="hero-content">
+            <h1>Academia de Desarrollo Web</h1>
+            <p>Aprende HTML, CSS y JavaScript con nuestros tutoriales multimedia</p>
+            <button
+                style="padding: 1rem 2rem; font-size: 1.1rem; cursor: pointer; background: #4A90E2; color: white; border: none; border-radius: 5px;">Comenzar
+                Ahora</button>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Sección de Podcast -->
+        <section id="podcast">
+            <h2>🎙️ Podcast Semanal</h2>
+
+            <article>
+                <h3>Episodio 20: El Futuro del Desarrollo Web</h3>
+                <p>Publicado el <time datetime="2025-01-08">8 de enero, 2025</time></p>
+
+                <audio controls preload="metadata">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    <source src="audio/episodio-20.ogg" type="audio/ogg">
+                    Tu navegador no soporta el elemento audio.
+                </audio>
+
+                <p><strong>Duración:</strong> 52 minutos</p>
+                <p><strong>Descripción:</strong> En este episodio discutimos las tendencias emergentes en desarrollo
+                    web, incluyendo WebAssembly, Progressive Web Apps y el futuro de JavaScript.</p>
+
+                <h4>Temas tratados:</h4>
+                <ul>
+                    <li>WebAssembly y su impacto en el rendimiento web</li>
+                    <li>Progressive Web Apps (PWA) en 2025</li>
+                    <li>Nuevas características de JavaScript ES2025</li>
+                    <li>Frameworks y librerías emergentes</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Episodio 19: Accesibilidad Web en la Práctica</h3>
+                <p>Publicado el <time datetime="2025-01-01">1 de enero, 2025</time></p>
+
+                <audio controls preload="metadata">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+                    <source src="audio/episodio-19.ogg" type="audio/ogg">
+                    Tu navegador no soporta el elemento audio.
+                </audio>
+
+                <p><strong>Duración:</strong> 45 minutos</p>
+                <p><strong>Descripción:</strong> Aprende a hacer tus sitios web accesibles para todos los usuarios,
+                    incluyendo personas con discapacidades.</p>
+            </article>
+        </section>
+
+        <!-- Sección de Tutoriales en Video -->
+        <section id="tutoriales">
+            <h2>📹 Tutoriales en Video</h2>
+
+            <article>
+                <h3>Tutorial: Creando un Portfolio Responsive</h3>
+                <video controls width="100%"
+                    poster="https://via.placeholder.com/800x450/4A90E2/ffffff?text=Portfolio+Tutorial"
+                    preload="metadata">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    <source src="videos/portfolio-tutorial.webm" type="video/webm">
+                    <track kind="subtitles" src="subtitles/portfolio-es.vtt" srclang="es" label="Español" default>
+                    <track kind="subtitles" src="subtitles/portfolio-en.vtt" srclang="en" label="English">
+                    <track kind="descriptions" src="subtitles/portfolio-desc.vtt" srclang="es"
+                        label="Descripción de audio">
+                    Tu navegador no soporta el elemento video.
+                </video>
+                <p><strong>Duración:</strong> 35 minutos | <strong>Nivel:</strong> Intermedio</p>
+                <p>En este tutorial completo aprenderás a crear un portfolio profesional y responsive desde cero usando
+                    HTML5, CSS3 y JavaScript.</p>
+            </article>
+
+            <article>
+                <h3>Tutorial: Animaciones con CSS</h3>
+                <video controls width="100%"
+                    poster="https://via.placeholder.com/800x450/FF6B6B/ffffff?text=CSS+Animations" preload="metadata">
+                    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+                    <source src="videos/css-animations.webm" type="video/webm">
+                    <track kind="subtitles" src="subtitles/animations-es.vtt" srclang="es" label="Español" default>
+                    <track kind="subtitles" src="subtitles/animations-en.vtt" srclang="en" label="English">
+                    Tu navegador no soporta el elemento video.
+                </video>
+                <p><strong>Duración:</strong> 28 minutos | <strong>Nivel:</strong> Avanzado</p>
+                <p>Domina las animaciones CSS con keyframes, transitions y transforms. Incluye ejemplos prácticos y
+                    trucos profesionales.</p>
+            </article>
+        </section>
+
+        <!-- Sección de Recursos -->
+        <section id="recursos">
+            <h2>📚 Recursos Adicionales</h2>
+
+            <article>
+                <h3>Música de Fondo para Programar</h3>
+                <p>Mejora tu concentración con nuestra selección de música instrumental.</p>
+                <audio controls loop preload="metadata">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento audio.
+                </audio>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Academia de Desarrollo Web. Todos los derechos reservados.</p>
+        <p>Contacto: info@academiaweb.com | <a href="#" style="color: #4A90E2;">Política de Privacidad</a></p>
+    </footer>
+</body>
+
+</html>

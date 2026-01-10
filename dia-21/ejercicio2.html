@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - Calculadora Interactiva</title>
+</head>
+
+<body>
+    <h1>Calculadora de Propina</h1>
+
+    <form oninput="calcular()">
+        <label for="total">Total de la cuenta (€):</label>
+        <input type="number" id="total" name="total" min="0" step="0.01" value="50">
+
+        <label for="propina">Propina (%):</label>
+        <input type="range" id="propina" name="propina" min="0" max="30" value="15"
+            oninput="porcentaje.value=this.value">
+        <output id="porcentaje" for="propina">15</output>%
+
+        <p>Propina: <output id="cantidad-propina">7.50</output>€</p>
+        <p><strong>Total con propina: <output id="resultado">57.50</output>€</strong></p>
+    </form>
+
+    <script>
+        function calcular() {
+            const total = parseFloat(document.getElementById('total').value) || 0;
+            const propina = parseFloat(document.getElementById('propina').value) || 0;
+            const cantidadPropina = total * (propina / 100);
+            const totalConPropina = total + cantidadPropina;
+
+            document.getElementById('cantidad-propina').value = cantidadPropina.toFixed(2);
+            document.getElementById('resultado').value = totalConPropina.toFixed(2);
+        }
+        calcular();
+    </script>
+</body>
+
+</html>

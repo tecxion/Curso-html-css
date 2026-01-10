@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Datalist</title>
+</head>
+
+<body>
+    <h1>Búsqueda de Productos</h1>
+
+    <form>
+        <label for="producto">Buscar producto:</label>
+        <input list="productos" id="producto" name="producto" placeholder="Escribe para buscar...">
+        <datalist id="productos">
+            <option value="Laptop HP">
+            <option value="Laptop Dell">
+            <option value="Laptop Lenovo">
+            <option value="Mouse Logitech">
+            <option value="Teclado Mecánico">
+            <option value="Monitor Samsung">
+            <option value="Auriculares Sony">
+        </datalist>
+
+        <button type="submit">Buscar</button>
+    </form>
+</body>
+
+</html>
