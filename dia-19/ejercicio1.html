@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Símbolos Comunes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        h2 {
+            color: #764ba2;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+
+        .symbol-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .symbol-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .symbol-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .symbol {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        .entity-code {
+            font-family: 'Courier New', monospace;
+            background: #e9ecef;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            color: #495057;
+        }
+
+        .description {
+            margin-top: 0.5rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #e9ecef;
+            color: #666;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/ejercicio1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ejercicio 1: Símbolos Comunes con Entidades HTML</h1>
+
+        <section>
+            <h2>&copy; Símbolos de Derechos y Marcas</h2>
+            <div class="symbol-grid">
+                <div class="symbol-card">
+                    <div class="symbol">&copy;</div>
+                    <div class="entity-code">&amp;copy;</div>
+                    <div class="description">Copyright</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&reg;</div>
+                    <div class="entity-code">&amp;reg;</div>
+                    <div class="description">Marca Registrada</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&trade;</div>
+                    <div class="entity-code">&amp;trade;</div>
+                    <div class="description">Trademark</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>&euro; Símbolos de Monedas</h2>
+            <div class="symbol-grid">
+                <div class="symbol-card">
+                    <div class="symbol">&euro;</div>
+                    <div class="entity-code">&amp;euro;</div>
+                    <div class="description">Euro</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&pound;</div>
+                    <div class="entity-code">&amp;pound;</div>
+                    <div class="description">Libra Esterlina</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&yen;</div>
+                    <div class="entity-code">&amp;yen;</div>
+                    <div class="description">Yen</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&cent;</div>
+                    <div class="entity-code">&amp;cent;</div>
+                    <div class="description">Centavo</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>&bull; Símbolos Tipográficos</h2>
+            <div class="symbol-grid">
+                <div class="symbol-card">
+                    <div class="symbol">&bull;</div>
+                    <div class="entity-code">&amp;bull;</div>
+                    <div class="description">Viñeta</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&hellip;</div>
+                    <div class="entity-code">&amp;hellip;</div>
+                    <div class="description">Puntos Suspensivos</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&ndash;</div>
+                    <div class="entity-code">&amp;ndash;</div>
+                    <div class="description">Guion Corto (en dash)</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&mdash;</div>
+                    <div class="entity-code">&amp;mdash;</div>
+                    <div class="description">Guion Largo (em dash)</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&sect;</div>
+                    <div class="entity-code">&amp;sect;</div>
+                    <div class="description">Sección</div>
+                </div>
+                <div class="symbol-card">
+                    <div class="symbol">&para;</div>
+                    <div class="entity-code">&amp;para;</div>
+                    <div class="description">Párrafo</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Ejemplo Práctico</h2>
+            <p style="padding: 1rem; background: white; border-radius: 8px; line-height: 2;">
+                <strong>&copy; 2025 Mi Empresa&reg;</strong><br>
+                Todos los derechos reservados&trade;<br><br>
+                <strong>Precios:</strong><br>
+                &bull; Producto A: 99&euro;<br>
+                &bull; Producto B: 149&pound;<br>
+                &bull; Producto C: 12,000&yen;<br><br>
+                <em>Nota: Los precios pueden variar&hellip;</em><br>
+                <small>Consulta el &sect;3.2 del contrato para más información.</small>
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Curso HTML &amp; CSS &mdash; Día 19</p>
+        </footer>
+    </div>
+</body>
+
+</html>

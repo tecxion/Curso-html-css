@@ -1,0 +1,75 @@
+/* Estilos para Ejercicio 1 - Meta Etiquetas Básicas */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    padding: 2rem;
+    color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    color: #333;
+}
+
+h1 {
+    color: #2c5364;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 3px solid #203a43;
+    padding-bottom: 1rem;
+}
+
+.meta-info {
+    background: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    border-left: 4px solid #2196f3;
+}
+
+.meta-info h2 {
+    color: #1976d2;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.meta-info p {
+    line-height: 1.8;
+    color: #555;
+}
+
+code {
+    background: #f5f5f5;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    color: #c7254e;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 2rem 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

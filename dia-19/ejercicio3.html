@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Fórmulas Matemáticas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+        }
+
+        .intro {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            color: #764ba2;
+            margin: 2rem 0 1.5rem 0;
+            font-size: 2rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        .formula-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .formula-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .formula-card h3 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .formula {
+            font-size: 1.5rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: 8px;
+            text-align: center;
+            margin: 1rem 0;
+            border: 2px solid #e9ecef;
+            font-family: 'Times New Roman', serif;
+        }
+
+        .description {
+            color: #555;
+            margin-top: 1rem;
+            line-height: 1.6;
+        }
+
+        .symbols-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .symbols-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .symbols-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .symbols-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        .symbol-display {
+            font-size: 1.8rem;
+            color: #667eea;
+            text-align: center;
+        }
+
+        .entity-code {
+            font-family: 'Courier New', monospace;
+            background: #e9ecef;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            color: #495057;
+        }
+
+        .arrow-demo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .arrow-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .arrow-item .symbol {
+            font-size: 3rem;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 2px solid #e9ecef;
+            color: #666;
+        }
+
+        sub,
+        sup {
+            font-size: 0.8em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .formula {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="styles/ejercicio3.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ejercicio 3: Fórmulas Matemáticas con Entidades HTML</h1>
+
+        <div class="intro">
+            <p><strong>Objetivo:</strong> Aprender a crear fórmulas matemáticas usando entidades HTML, elementos
+                <code>&lt;sub&gt;</code> y <code>&lt;sup&gt;</code> para subíndices y superíndices.
+            </p>
+        </div>
+
+        <section>
+            <h2>📐 Fórmulas Geométricas</h2>
+
+            <div class="formula-card">
+                <h3>Área de un Círculo</h3>
+                <div class="formula">
+                    A = &pi;r&sup2;
+                </div>
+                <div class="description">
+                    Donde <strong>A</strong> es el área, <strong>&pi;</strong> (pi) es aproximadamente 3.14159, y
+                    <strong>r</strong> es el radio del círculo.
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <h3>Teorema de Pitágoras</h3>
+                <div class="formula">
+                    a&sup2; + b&sup2; = c&sup2;
+                </div>
+                <div class="description">
+                    En un triángulo rectángulo, el cuadrado de la hipotenusa (<strong>c</strong>) es igual a la suma de
+                    los cuadrados de los catetos (<strong>a</strong> y <strong>b</strong>).
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <h3>Volumen de una Esfera</h3>
+                <div class="formula">
+                    V = 4/3 &times; &pi;r&sup3;
+                </div>
+                <div class="description">
+                    El volumen de una esfera se calcula multiplicando 4/3 por &pi; y el radio al cubo.
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>🔢 Operaciones Matemáticas</h2>
+
+            <div class="formula-card">
+                <h3>Operaciones Básicas</h3>
+                <div class="formula">
+                    (a + b) &times; c &divide; d &ne; e
+                </div>
+                <div class="description">
+                    Ejemplo de suma (+), multiplicación (&times;), división (&divide;) y desigualdad (&ne;).
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <h3>Desigualdades</h3>
+                <div class="formula">
+                    x &ge; 0 &nbsp;&nbsp; y &le; 100 &nbsp;&nbsp; a &ne; b
+                </div>
+                <div class="description">
+                    Mayor o igual que (&ge;), menor o igual que (&le;), y no igual (&ne;).
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <h3>Raíz Cuadrada</h3>
+                <div class="formula">
+                    &radic;(x&sup2; + y&sup2;) = z
+                </div>
+                <div class="description">
+                    La raíz cuadrada (&radic;) de la suma de cuadrados.
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>&infin; Símbolos Matemáticos Avanzados</h2>
+
+            <table class="symbols-table">
+                <thead>
+                    <tr>
+                        <th>Símbolo</th>
+                        <th>Entidad</th>
+                        <th>Descripción</th>
+                        <th>Ejemplo de Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="symbol-display">&infin;</td>
+                        <td><span class="entity-code">&amp;infin;</span></td>
+                        <td>Infinito</td>
+                        <td>lim<sub>x&rarr;&infin;</sub> f(x) = L</td>
+                    </tr>
+                    <tr>
+                        <td class="symbol-display">&sum;</td>
+                        <td><span class="entity-code">&amp;sum;</span></td>
+                        <td>Sumatoria</td>
+                        <td>&sum;<sub>i=1</sub><sup>n</sup> i = n(n+1)/2</td>
+                    </tr>
+                    <tr>
+                        <td class="symbol-display">&prod;</td>
+                        <td><span class="entity-code">&amp;prod;</span></td>
+                        <td>Productoria</td>
+                        <td>&prod;<sub>i=1</sub><sup>n</sup> i = n!</td>
+                    </tr>
+                    <tr>
+                        <td class="symbol-display">&int;</td>
+                        <td><span class="entity-code">&amp;int;</span></td>
+                        <td>Integral</td>
+                        <td>&int;<sub>a</sub><sup>b</sup> f(x)dx</td>
+                    </tr>
+                    <tr>
+                        <td class="symbol-display">&part;</td>
+                        <td><span class="entity-code">&amp;part;</span></td>
+                        <td>Derivada Parcial</td>
+                        <td>&part;f/&part;x</td>
+                    </tr>
+                    <tr>
+                        <td class="symbol-display">&nabla;</td>
+                        <td><span class="entity-code">&amp;nabla;</span></td>
+                        <td>Nabla (Gradiente)</td>
+                        <td>&nabla;f(x,y,z)</td>
+                    </tr>
+                    <tr>
+                        <td class="symbol-display">&plusmn;</td>
+                        <td><span class="entity-code">&amp;plusmn;</span></td>
+                        <td>Más/Menos</td>
+                        <td>x = &plusmn;&radic;a</td>
+                    </tr>
+                    <tr>
+                        <td class="symbol-display">&prop;</td>
+                        <td><span class="entity-code">&amp;prop;</span></td>
+                        <td>Proporcional</td>
+                        <td>y &prop; x</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>&rarr; Flechas Matemáticas</h2>
+
+            <div class="arrow-demo">
+                <div class="arrow-item">
+                    <div class="symbol">&larr;</div>
+                    <div class="entity-code">&amp;larr;</div>
+                    <div>Izquierda</div>
+                </div>
+                <div class="arrow-item">
+                    <div class="symbol">&rarr;</div>
+                    <div class="entity-code">&amp;rarr;</div>
+                    <div>Derecha</div>
+                </div>
+                <div class="arrow-item">
+                    <div class="symbol">&uarr;</div>
+                    <div class="entity-code">&amp;uarr;</div>
+                    <div>Arriba</div>
+                </div>
+                <div class="arrow-item">
+                    <div class="symbol">&darr;</div>
+                    <div class="entity-code">&amp;darr;</div>
+                    <div>Abajo</div>
+                </div>
+                <div class="arrow-item">
+                    <div class="symbol">&harr;</div>
+                    <div class="entity-code">&amp;harr;</div>
+                    <div>Doble</div>
+                </div>
+                <div class="arrow-item">
+                    <div class="symbol">&rArr;</div>
+                    <div class="entity-code">&amp;rArr;</div>
+                    <div>Implica</div>
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <h3>Ejemplo con Flechas</h3>
+                <div class="formula">
+                    lim<sub>x&rarr;0</sub> sin(x)/x = 1 &nbsp;&nbsp;&rArr;&nbsp;&nbsp; f(x) &rarr; 1
+                </div>
+                <div class="description">
+                    Las flechas se usan comúnmente para indicar límites, implicaciones y tendencias.
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>📊 Fórmulas Científicas</h2>
+
+            <div class="formula-card">
+                <h3>Ecuación de Einstein (E=mc²)</h3>
+                <div class="formula">
+                    E = mc&sup2;
+                </div>
+                <div class="description">
+                    La energía (<strong>E</strong>) es igual a la masa (<strong>m</strong>) multiplicada por la
+                    velocidad de la luz (<strong>c</strong>) al cuadrado.
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <h3>Fórmula Cuadrática</h3>
+                <div class="formula">
+                    x = (-b &plusmn; &radic;(b&sup2; - 4ac)) / 2a
+                </div>
+                <div class="description">
+                    Solución de la ecuación cuadrática ax&sup2; + bx + c = 0
+                </div>
+            </div>
+
+            <div class="formula-card">
+                <h3>Ecuación de la Circunferencia</h3>
+                <div class="formula">
+                    (x - h)&sup2; + (y - k)&sup2; = r&sup2;
+                </div>
+                <div class="description">
+                    Ecuación de una circunferencia con centro en (h, k) y radio r.
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Curso HTML &amp; CSS &mdash; Fórmulas Matemáticas con Entidades HTML</p>
+            <p style="margin-top: 0.5rem;">
+                &sum; &int; &prod; &infin; &nabla; &part; &radic; &pi; &plusmn; &times; &divide;
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
